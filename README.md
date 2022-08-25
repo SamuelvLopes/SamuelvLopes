@@ -1,6 +1,6 @@
 ### Olá, tudo bem? 👋
 
-### Agora estou trabalhando!
+#### Agora estou no trabalho!
 
 [![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=SamuelvLopes&layout=compact)](https://github.com/SamuelvLopes)
 
