@@ -5,6 +5,7 @@
 
 
 - Aprendendo sempre
-- samuel.vitor.profissional@gmail.com | + 55 081 9 8827-5380
-- https://wa.me/5581988275380
+- ✉ SamuelVitorProfissional@gmail.com 
+- 📱 55081988275380
+- Fale Comigo https://wa.me/5581988275380
 
