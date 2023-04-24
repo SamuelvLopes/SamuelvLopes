@@ -7,5 +7,5 @@
 - Aprendendo sempre
 - ✉ SamuelVitorProfissional@gmail.com 
 - 📱 55081988275380
-- Fale Comigo https://wa.me/5581988275380 or https://discord.gg/rBwdR86R
+- Fale Comigo no [Whatapp](https://wa.me/5581988275380) ou no [discord](https://discord.gg/rBwdR86R)
 
