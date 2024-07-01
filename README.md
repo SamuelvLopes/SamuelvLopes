@@ -109,9 +109,9 @@ _Recife, Pernambuco, Brasil_
 
 - 💻 Linguagens de Programação: PHP, JavaScript, Python, Java
 - 🌐 Frameworks: React, Node.js, Django, Laravel, Codeigniter
-- 🛠️ Ferramentas: Git, Docker, GitLab, Rancher, Kubernetes, AWS
+- 🛠️ Ferramentas: Git, Docker, GitLab, Rancher, Kubernetes, ZABBIX
 - 📋 Metodologias: Scrum, SAFe, Kanban
-- ☁️ Cloud Platforms: AWS, GCP
+- ☁️ Cloud Platforms: AWS (EC2, ECS, S3, SQS e SNS), GCP
 - 🌍 Línguas: Português (nativo), Inglês (Técnico)
 
 
