@@ -15,7 +15,7 @@ Desenvolvedor Full Stack com mais de 5 anos de experiência em projetos desafiad
 
 ## 💼 Experiência Profissional
 
-**Engenheiro de Software | Full Stack | WEB | Sênior | Workfacilit**  
+**Engenheiro de Software | Full Stack | WEB | Workfacilit**  
 *Setembro 2023 - o momento (10 meses)*  
 _Remota, Recife, Pernambuco, Brasil_
 
@@ -26,7 +26,7 @@ _Remota, Recife, Pernambuco, Brasil_
 - Garantir a qualidade, saúde e evolução das aplicações;
 - Desenvolvimento de aplicativos em PHP, BPMN e outras tecnologias.
 
-**Engenheiro de Software | Full Stack | WEB | Pleno | Workfacilit**  
+**Engenheiro de Software | Full Stack | WEB | Workfacilit**  
 *Outubro 2022 - Setembro 2023 (1 ano)*  
 _Híbrida_
 
@@ -37,7 +37,7 @@ _Híbrida_
 - Melhoria dos processos de desenvolvimento;
 - Garantir a qualidade, saúde e evolução das aplicações.
 
-**Engenheiro de Software | Full Stack | WEB | Junior | Titan Software Ltda.**  
+**Engenheiro de Software | Full Stack | WEB | Titan Software Ltda.**  
 *Março 2022 - Outubro 2022 (8 meses)*  
 _Remota, Barueri, São Paulo, Brasil_
 
@@ -57,7 +57,7 @@ _Jaboatão dos Guararapes, Pernambuco, Brasil_
 - Responsável pelos e-commerces das empresas;
 - Suporte a sistemas e usuários.
 
-**Engenheiro de Software | Full Stack | WEB | Junior | Instituto Internacional Despertando Vocações**  
+**Engenheiro de Software | Full Stack | WEB | Instituto Internacional Despertando Vocações**  
 *Fevereiro 2019 - Dezembro 2020 (1 ano 11 meses)*  
 _Recife e Região, Brasil_
 
@@ -116,7 +116,7 @@ _Recife, Pernambuco, Brasil_
 
 
 ---
-## 📚 Projetos
+## 📚 Repositorios
 
 **[life.pratics.me](https://github.com/SamuelvLopes/life.pratics.me)**  
 *Descrição:* Construção de api que tem como objetivo ser o core de um sistema de
@@ -124,9 +124,19 @@ gerenciamento de atendimento ambulatorial.
 
 *Tecnologias:* PHP, Laravel, Swagger, Rest.
 
-**Impeachment.me**  
-*Descrição:* Sistema de e-commerce com integração de pagamento online.  
-*Tecnologias:* Django, PostgreSQL, Redis.
+
+---
+## 📚 Meus dominios:
+
+- pratics.org
+- pratics.me
+- pratics.com.br
+- samuelvitor.com.br
+- samuelvitor.com
+- impeachment.me
+- emillyfernandes.com.br
+- siliconse.com
+
 
 
 
