@@ -118,9 +118,11 @@ _Recife, Pernambuco, Brasil_
 ---
 ## 📚 Projetos
 
-**Pratics.org**  
-*Descrição:* Desenvolvimento de uma aplicação web para gerenciamento de tarefas.  
-*Tecnologias:* React, Node.js, MongoDB.
+**[life.pratics.me](https://github.com/SamuelvLopes/life.pratics.me)**  
+*Descrição:* Construção de api que tem como objetivo ser o core de um sistema de
+gerenciamento de atendimento ambulatorial.  
+
+*Tecnologias:* PHP, Laravel, Swagger, Rest.
 
 **Impeachment.me**  
 *Descrição:* Sistema de e-commerce com integração de pagamento online.  
