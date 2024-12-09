@@ -53,7 +53,7 @@ Fev. 2019 – Mar. 2022
 ### Projetos  
 
 **Plataforma de Atendimento ao Cliente - Itaú** (Laravel, Vue.js)  
-- Personalizou soluções bancárias, garantindo desempenho e alta disponibilidade.  
+- Criação de plataforma de atendimento humano whitelabel, garantindo desempenho e alta disponibilidade.  
 - Implementou pipelines de CI/CD, reduzindo o tempo de entrega de novas funcionalidades.  
 
 **Sistema ERP com Módulo Fiscal** (React, PHP)  
