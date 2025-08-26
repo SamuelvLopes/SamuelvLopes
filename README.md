@@ -20,8 +20,8 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 **Graduação em Análise e Desenvolvimento de Sistemas | IFPE Campus Recife**  
 *Fevereiro 2019 - Julho 2024*
 
-- Extensionista Bia (bolsista).
-- Pesquisador Pibic (bolsista).
+- Extensionista BIA (bolsista).
+- Pesquisador PIBIC (bolsista).
 
 **Técnico em Administração | Escola Técnica Estadual Professor Antônio Carlos Gomes da Costa**  
 *Julho 2021 - Julho 2023*
