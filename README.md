@@ -56,14 +56,19 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 ### Life Gestão de Frota
 
-- *Descrição:* Construção de api que tem como objetivo ser o core de um sistema de
-gerenciamento de atendimento ambulatorial.  
+- *Descrição:* Construção de api que tem como objetivo ser o core de um sistema de gerenciamento de atendimento ambulatorial.  
 - [Repositorio](https://github.com/SamuelvLopes/life.pratics.me)
 
 *Tecnologias:* PHP, Laravel, Swagger, Rest.
 
+### Desafio GLPI Plugin green4T
 
----
+- *Descrição:* Criar um novo Plugin simples, no padrão do GLPi, para extender as funcionalidades existentes da aplicação. 
+- [Repositorio](https://github.com/SamuelvLopes/simpleticketprice)
+- [Proposta](https://github.com/SamuelvLopes/desafio-glpi-plugin)
+
+*Tecnologias:* PHP, GLPI, MYSQL
+
 ## 📚 Meus projetos:
 - Pratics
 - Tecnognose
