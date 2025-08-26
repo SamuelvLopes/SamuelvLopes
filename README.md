@@ -9,7 +9,7 @@
 
 ## 📝 Sobre Mim
 
-Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores financeiro e de varejo. Proficiente em PHP, HTML, JavaScript, Vue.js, MySQL, PostgreSQL e AWS, com forte habilidade em metodologias ágeis. Sou apaixonado por aprendizado contínuo e estou sempre em busca de novas oportunidades para aplicar e expandir minhas habilidades técnicas.
+Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores financeiro e de varejo. Proficiente em JavaScript, PHP, Laravel, Vue.js, MySQL, PostgreSQL e AWS, com forte habilidade em metodologias ágeis. Sou apaixonado por aprendizado contínuo e estou sempre em busca de novas oportunidades para aplicar e expandir minhas habilidades técnicas.
 
 
 ## 🎓 Formação Acadêmica
@@ -52,7 +52,7 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 
 ---
-## 📚 Teste técnico
+## 📚 Testes técnicos
 
 ### Life Gestão de Frota
 
@@ -61,7 +61,7 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 *Tecnologias:* PHP, Laravel, Swagger, Rest.
 
-### Desafio GLPI Plugin green4T
+### Green4T
 
 - *Descrição:* Criar um novo Plugin simples, no padrão do GLPi, para extender as funcionalidades existentes da aplicação. 
 - [Repositorio](https://github.com/SamuelvLopes/simpleticketprice)
@@ -69,11 +69,11 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 *Tecnologias:* PHP, GLPI, MYSQL
 
-## 📚 Meus projetos:
+### 📚 Meus projetos
+feitos com ❤️ diretamente de Recife/PE
 - Pratics
 - Tecnognose
 
-##### Feitos com ❤️ diretamente de Recife/PE 
 
 
 ## 🌟 Interesses
