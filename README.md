@@ -43,6 +43,7 @@ _Remota, Barueri, São Paulo, Brasil_
 
 - Modelagem, desenvolvimento, implementação, manutenção e evolução das aplicações SaaS da empresa, com foco no ERP - Titan.
 - Desenvolvimento de integrações com o iFood, ampliando funcionalidades.
+_STACK: HTML, CSS, JS, PHP, Codeigniter_
 
 **Analista de Sistemas | Meta 55 Distribuidora**  
 *Fevereiro 2020 - Março 2022 (2 anos 2 meses)*  
@@ -56,6 +57,7 @@ _Jaboatão dos Guararapes, Pernambuco, Brasil_
 - Gestão e evolução do aplicativo Ganha Ganha;
 - Responsável pelos e-commerces das empresas;
 - Suporte a sistemas e usuários.
+_STACK: HTML, CSS, JS, PHP, Codeigniter_
 
 **Estagiário em Desenvolvimento de Produtos | Bem Logística**  
 *Janeiro 2020 (1 mês)*  
@@ -73,7 +75,7 @@ _Recife e Região, Brasil_
 - Construção de páginas de eventos, institucionais e e-commerce utilizando HTML, CSS, JS, PHP, WordPress e Moodle;
 - Administração do G Suite (Gerenciamento de usuários);
 - Campanhas de Email Marketing.
-
+_STACK: HTML, CSS, JS, PHP, WordPress e Moodle_
 
 ---
 
