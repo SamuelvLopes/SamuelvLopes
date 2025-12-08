@@ -57,7 +57,15 @@ _Jaboatão dos Guararapes, Pernambuco, Brasil_
 - Responsável pelos e-commerces das empresas;
 - Suporte a sistemas e usuários.
 
-**Engenheiro de Software | Full Stack | WEB | Instituto Internacional Despertando Vocações**  
+**Estagiário em Desenvolvimento de Produtos | Bem Logística**  
+*Janeiro 2020 (1 mês)*  
+_Recife, Pernambuco, Brasil_
+
+- Entrevista a colaboradores para levantamento de requisitos;
+- Planejamento de software CRM;
+- Construção do ‘Documento de requisitos’ e do ‘Documento de casos de uso’.
+
+**Engenheiro de Software | Full Stack | WEB | Instituto Internacional Despertando Vocações - Voluntario**  
 *Fevereiro 2019 - Dezembro 2020 (1 ano 11 meses)*  
 _Recife e Região, Brasil_
 
@@ -66,13 +74,6 @@ _Recife e Região, Brasil_
 - Administração do G Suite (Gerenciamento de usuários);
 - Campanhas de Email Marketing.
 
-**Estagiário em Desenvolvimento de Produtos | Bem Logística**  
-*Janeiro 2020 (1 mês)*  
-_Recife, Pernambuco, Brasil_
-
-- Entrevista a colaboradores para levantamento de requisitos;
-- Planejamento de software CRM;
-- Construção do ‘Documento de requisitos’ e do ‘Documento de casos de uso’.
 
 ---
 
