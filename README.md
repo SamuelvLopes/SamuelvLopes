@@ -16,7 +16,7 @@ Desenvolvedor Full Stack com mais de 5 anos de experiência em projetos desafiad
 ## 💼 Experiência Profissional
 
 **Engenheiro de Software | Full Stack | WEB | Workfacilit**  
-*Setembro 2023 - o momento (10 meses)*  
+*Setembro 2023 - o momento*  
 _Remota, Recife, Pernambuco, Brasil_
 
 - Desenvolvedor III (Responsável pela cadeia de Teste, Automação e deploy)
