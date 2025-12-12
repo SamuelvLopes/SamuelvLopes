@@ -213,3 +213,9 @@
 - Suportar integrações via Cloud Functions e Pub/Sub garantindo funcionamento estável;
 - Gerenciar e operar APIs publicadas com Apigee, incluindo monitoramento de erros e segurança;
 - Atuar na análise e resolução de incidentes críticos em ambiente de dados.
+- Ensino Superior Completo na área de Tecnologia da Informação ou Nível Superior em qualquer área de formação com pós-graduação na área de Tecnologia da Informação;
+- Experiência em sustentação com BigQuery, Dataflow, Pub/Sub, Cloud Functions e Apigee;
+- Linguagens requeridas: Python (GCP),Java, SQL, Terraform e Go.
+- Conhecimento em monitoramento, logging e tratamento de falhas em arquiteturas GCP;
+- Capacidade para atuação em atendimento e resolução ágil de incidentes;
+- Conhecimento em modelagem de dados e integrações heterogêneas.
