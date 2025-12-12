@@ -121,15 +121,15 @@
 - Diferencial para experiência em acessibilidade.
 - AWS Code Pipeline, Code Build, S3, CloudWatch, TargetGroup e Secrets Manager;
 - Criação de infraestrutura (CI/CD) e arquitetura cloud.
-- ·        Formação superior na Área da Engenharia Informática, Engenharia Biomédica ou similar;
-- ·        Experiência prévia (mais de 3 anos) e conhecimentos de JAVA back- nd e tecnologias front- nd (valorizam- e conhecimentos de integração - HL7, FHIR);
-- ·        Excelentes capacidades verbais e escritas em inglês;
-- ·        Valoriza- e o domínio do castelhano, falado e escrito;
-- ·        Disponibilidade para trabalhar em Braga;
-- ·        Experiência prévia na Área da Saúde, nomeadamente no desenvolvimento de soluções clínicas, investigação e ensaios clínicos (valoriza- e);
-- ·        Capacidade de planeamento e organização;
-- ·        Boas capacidades de comunicação e trabalho em equipas e clientes internacionais;
-- ·        Autonomia, organização e sentido de responsabilidade.
+- Formação superior na Área da Engenharia Informática, Engenharia Biomédica ou similar;
+- Experiência prévia (mais de 3 anos) e conhecimentos de JAVA back- nd e tecnologias front- nd (valorizam- e conhecimentos de integração - HL7, FHIR);
+- Excelentes capacidades verbais e escritas em inglês;
+- Valoriza- e o domínio do castelhano, falado e escrito;
+- Disponibilidade para trabalhar em Braga;
+- Experiência prévia na Área da Saúde, nomeadamente no desenvolvimento de soluções clínicas, investigação e ensaios clínicos (valoriza- e);
+- Capacidade de planeamento e organização;
+- Boas capacidades de comunicação e trabalho em equipas e clientes internacionais;
+- Autonomia, organização e sentido de responsabilidade.
 - Desenvolvimento de novos produtos e funcionalidades (PHP);
 - Atuar no desenho de soluções e sistemas junto às áreas de negócio;
 - Trabalhar na manutenção e sustentação de sistemas e integrações API;
