@@ -9,7 +9,7 @@
 
 ## 📝 Sobre Mim
 
-Desenvolvedor Full Stack com mais de 5 anos de experiência em projetos desafiadores nos setores financeiro e de varejo. Proficiente em PHP, HTML, JavaScript, MySQL, PostgreSQL e AWS, com forte habilidade em metodologias ágeis. Atualmente, atuo na Workfacilit, onde lidero a cadeia de teste, automação e deploy. Sou apaixonado por aprendizado contínuo e estou sempre em busca de novas oportunidades para aplicar e expandir minhas habilidades técnicas.
+Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores financeiro e de varejo. Proficiente em JavaScript, PHP, Laravel, Vue.js, MySQL, PostgreSQL e AWS, com forte habilidade em metodologias ágeis. Sou apaixonado por aprendizado contínuo e estou sempre em busca de novas oportunidades para aplicar e expandir minhas habilidades técnicas.
 
 ---
 
@@ -87,8 +87,8 @@ _STACK: HTML, CSS, JS, PHP, WordPress e Moodle_
 **Graduação em Análise e Desenvolvimento de Sistemas | IFPE Campus Recife**  
 *Fevereiro 2019 - Julho 2024*
 
-- Extensionista Bia (bolsista).
-- Pesquisador Pibic (bolsista).
+- Extensionista BIA (bolsista).
+- Pesquisador PIBIC (bolsista).
 
 **Técnico em Administração | Escola Técnica Estadual Professor Antônio Carlos Gomes da Costa**  
 *Julho 2021 - Julho 2023*
@@ -114,40 +114,56 @@ _STACK: HTML, CSS, JS, PHP, WordPress e Moodle_
 - 🌐 Frameworks: React, Node.js, Django, Laravel, Codeigniter
 - 🛠️ Ferramentas: Git, Docker, GitLab, Rancher, Kubernetes, ZABBIX
 - 📋 Metodologias: Scrum, SAFe, Kanban
-- ☁️ Cloud Platforms: AWS (EC2, ECS, S3, SQS e SNS), GCP
+- ☁️ Cloud Platforms: AWS, GCP, Azure
 - 🌍 Línguas: Português (nativo), Inglês (Técnico)
 
 
 ---
-## 📚 Repositorios
+## 📚 Testes técnicos
 
-**[life.pratics.me](https://github.com/SamuelvLopes/life.pratics.me)**  
-*Descrição:* Construção de api que tem como objetivo ser o core de um sistema de
-gerenciamento de atendimento ambulatorial.  
+### LIFE
+
+- *Descrição:* Construção de api que tem como objetivo ser o core de um sistema de gerenciamento de atendimento ambulatorial.  
+- [Repositorio](https://github.com/SamuelvLopes/life.pratics.me)
 
 *Tecnologias:* PHP, Laravel, Swagger, Rest.
 
+### GLPI
 
----
-## 📚 Meus dominios:
-
-- pratics.org
-- pratics.me
-- pratics.com.br
-- samuelvitor.com.br
-- samuelvitor.com
-- impeachment.me
-- emillyfernandes.com.br
-- siliconse.com
+- *Descrição:* Criar um novo Plugin simples, no padrão do GLPi, para extender as funcionalidades existentes da aplicação. 
+- [Repositorio](https://github.com/SamuelvLopes/simpleticketprice)
+- [Teste](https://github.com/SamuelvLopes/desafio-glpi-plugin)
 
 
+### FROTA
+
+- *Descrição:* Este projeto consiste em um sistema completo para gerenciamento de veículos, incluindo backend em Laravel e frontend em Vue.js, utilizando Vite para o desenvolvimento rápido e eficiente.
+- [Repositorio](https://github.com/SamuelvLopes/cars.pratics.me)
+
+*Tecnologias:* Laravel, MYSQL, Vue.js
+
+### 📚 Meus projetos
+feitos com ❤️ diretamente de Recife/PE
+- Pratics
+- Tecnognose
 
 
----
+
 ## 🌟 Interesses
 
 - 🛠️ DevOps
 - 🌍 Tecnologias Open Source
-- 🚀 No Code
-- 🛠️ Low Code
-- 🤖 Chatbot
+- 🖥️ Arquitetura de Software
+- 🧑‍💻 Desenvolvimento Full Stack (Laravel, Vue.js, NestJS)
+- 🐳 Containers & Orquestração (Docker, Kubernetes)
+- 📈 Data Analytics & Business Intelligence (SQL, Superset, Grafana)
+- 🔒 Segurança da Informação & Cibersegurança
+- 💡 Automatização de Processos
+- 🚀 Infraestrutura em Nuvem (Azure, AWS)
+- 🗃️ Integração de Sistemas (APIs REST, Mensageria)
+- 💻 Linux & Ferramentas CLI
+- 📚 Aprendizado Contínuo e Compartilhamento de Conhecimento
+- 💸 Finanças Pessoais & Investimentos
+- 🗣️ Aprendizado de Idiomas (Espanhol, Inglês)
+- 🫂 Colaboração em Projetos de Comunidade
+- 📝 Documentação Técnica & Boas Práticas de Código
