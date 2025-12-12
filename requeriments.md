@@ -1,0 +1,215 @@
+# RoadMap
+- CloudFormation
+- Terraform
+- vue
+- spring
+- React
+- blockchain
+- arquitetura hexagonal
+- bandit
+- trivy
+- Função  labda
+- NestJS
+- PRISMA
+- NODE.JS
+- Next.js:
+- React
+- Datadog/Grafana/Elastic/Kibana;
+- API Gateway;
+- Kafka;
+- Backstage;
+- Harness;
+- Experiência em Desenvolvimento de software em .net.
+- Experiencia com criação de pipelines(azue devops)
+- Criação e manutenção de scripts IAC - Terraform
+- Atuar com ativações e integrações de aplicações web em nodejs;
+- Enfrentar desafios reais técnicos com aspectos distintos;
+- Fazer testes nas aplicações web
+- Temos Devops como cultura, assim fazemos deploys ágeis e com alta qualidade;
+- Que você conheça o banco de dados relacional e NoSql;
+- Boa comunicação e autonomia é fundamental para trabalhar em nosso ambiente com tempo multidisciplinar;
+- Experiência em Containers com Docker e Kubernetes
+- Criação de componentes reutilizáveis;
+- Estar aberto para aprender novas tecnologias;
+- Tenha experiência em equipes usando metodologias ágeis;
+- Azure Cloud Computing
+- Event- ased architecture
+- Kubernetes and Containers
+- Ferramentas de Infrastructure as Service, como Terraform
+- Ferramentas de CI/CD, como Argo
+- Ferramentas de monitoramento, como Grafana
+- Compreender profundamente a arquitetura e o modelo operacional da empresa ·
+- Consultar equipes internas em suas jornadas de adoção ·
+- Revisar implementações existentes das equipes e fornecer recomendações ·
+- Apoiar atualizações, compilações e migrações de implantações ·
+- Desenvolver e compartilhar código que possibilite implantação de baixa complexidade e multi- egião ·
+- Fornecer orientações sobre Infraestrutura como Código e automação de CI/CD com ferramentas como Jenkins, Spinnaker ·
+- Aconselhar sobre implantações de aplicativos serverless usando o framework Serverless ·
+- Consultar sobre a implementação de bancos de dados relacionais seguindo as melhores práticas da AWS ·
+- Apoiar a configuração e gestão de implantações de proxy Apigee Habilidades Requeridas: ·
+- Mais de 10 anos de experiência em DevOps com provisionamento e automação de infraestrutura AWS ·
+- Fortes habilidades práticas com Terraform para implantações AWS ·
+- Experiência comprovada com práticas de Infraestrutura como Código (IaC) e CI/CD ·
+- Experiência no suporte a frameworks de aplicativos serverless ·
+- Compreensão das melhores práticas de implantação e gestão de bancos de dados relacionais ·
+- Familiaridade com Apigee proxy ou soluções semelhantes de gateway de API ·
+- Excelente comunicação verbal e escrita em inglês ·
+- Proficiência em uma linguagem de script como Python, Bash, etc. ·
+- Graduação em ciência da computação, engenharia ou área relacionada ·
+- Gostar de trabalhar e ajudar equipes de desenvolvimento a fazer a coisa certa e ter sucesso Qualificações Preferenciais: ·
+- Experiência com a ferramenta CI/CD Spinnaker para AWS ·
+- Especialização em projetar infraestrutura em nuvem para alta disponibilidade e escalabilidade ·
+- Familiaridade com Kubernetes e orquestração de contêineres ·
+- Certificações AWS como Solutions Architect, DevOps Engineer. Inglês avançado.
+- Pelo menos 5 anos de experiência em nuvem usando AWS
+- Possuir no mínimo 3 anos de experiência em infraestrutura como código usando Terraform
+- Experiência em construir arquiteturas escaláveis, distribuídas e assíncronas em nuvem
+- Experiência com Kubernetes e GitOps
+- Experiência em Docker e orquestração de containers
+- Experiência em construir pipelines de CI/CD usando construção de scripts em yaml (CircleCI, Github Actions, TravisCI, Jenkins, etc)
+- Experiência com observabilidade
+- Habilidade em metodologias ágeis e cultura devops;
+- Habilidade gerir incidentes e postmortems relacionados com sua área de atuação
+- Terraform, Kubernetes, Segurança da Informação (SonarQube, SAST (Fortify ou equivalente), SCA (Dependency Check ou equivalente) ou Image Scanning);
+- Construção de documentações técnicas (diagramas, códigos, scripts) e não técnicas (procedimentos e processos)
+- Cloud (AWS ou Azure)
+- Conhecimento em linguagem de programação (NodeJs, Java ou .NET).
+- Conhecimento em arquitetura Event Sourcing
+- Conhecimento em Arquitetura em camadas
+- Conhecimento em Arquitetura limpa
+- Experiência em meios de pagamentos e financeiro;
+- Vivência em aplicações que recebam quantidade massiva de acessos simultâneos e concorrência de recursos.
+- Experiência sólida/comprovada no desenvolvimento de aplicações backend Java 8+;
+- Experiência com Spring Boot;
+- Experiência com testes unitários e mockito;
+- Experiência em Cloud AWS:EC2, S3, RDS, SQS,Lambda, API Gateway, entre outros;
+- Habilidade com Kafka;
+- Padrões de Projeto: MVC, MVVM, Factory, Singleton, entre outros;
+- Conhecimento em Iac (Terraform)
+- Experiência na implementação e operação de sistemas distribuídos e tolerantes a falhas;
+- Familiaridade com arquiteturas baseadas em microserviços, incluindo princípios de design, comunicação entre serviços e escalabilidade;
+- Conhecimento BD relacionais(MySQL, PostgreSQL) e NoSQL (DynamoDB, MongoDB);
+- Padrão OPEN API 3.0.
+- Experiência sólida/comprovada no desenvolvimento de aplicações backend Java 8+;
+- Experiência com Spring Boot;
+- Experiência com testes unitários e mockito;
+- Experiência em Cloud AWS:EC2, S3, RDS, SQS,Lambda, API Gateway, entre outros;
+- Habilidade com Kafka;
+- Padrões de Projeto: MVC, MVVM, Factory, Singleton, entre outros;
+- Conhecimento em Iac (Terraform)
+- Experiência na implementação e operação de sistemas distribuídos e tolerantes a falhas;
+- Familiaridade com arquiteturas baseadas em microserviços, incluindo princípios de design, comunicação entre serviços e escalabilidade;
+- Conhecimento BD relacionais(MySQL, PostgreSQL) e NoSQL (DynamoDB, MongoDB);
+- Padrão OPEN API 3.0.
+- Experiência sólida como engenheiro de dados;
+- Sólidos conhecimentos em Big Data, Data Lake, Data Warehouse, Data Marts;
+- Experiência em Python e Spark;
+- Experiência sólida na utilização de soluções cloud AWS (Glue, CloudTrail, CloudWatch S3, Lambda, etc);
+- Conhecimento em Modelagem de Dados (Relacional, Não Relacional, Multidimensional);
+- Experiência em ingestão de dados e ETL;
+- Experiência com ferramentas/cultura DevOps (CI/CD e IaC);
+- Experiência em banco de dados (SQL e NoSQL);
+- Metodologia de projetos ágeis.
+- Atuação em arquitetura Data Mesh e modelagem de dados em Data Lake (SOR, SOT, SPEC);
+- Certificações AWS / Big Data;
+- Vivência com assuntos relacionados a LGPD.
+- Experiência sólida em desenvolvimento utilizando Java e Angular;
+- Experiência com Springboot, Api Rest, Kafka, Jenkins, Git, JSP, HTML CSS, NodeJS, Javascript;
+- TerraForm e CloudFront Clean Arch;
+- Experiência em ambientes Cloud AWS (SNS, SQS, AWS Glue, VPC, Subnet, LoadBalancers);
+- Experiência em metodologia ágil;
+- Diferencial para experiência em acessibilidade.
+- AWS Code Pipeline, Code Build, S3, CloudWatch, TargetGroup e Secrets Manager;
+- Criação de infraestrutura (CI/CD) e arquitetura cloud.
+- ·        Formação superior na Área da Engenharia Informática, Engenharia Biomédica ou similar;
+- ·        Experiência prévia (mais de 3 anos) e conhecimentos de JAVA back- nd e tecnologias front- nd (valorizam- e conhecimentos de integração - HL7, FHIR);
+- ·        Excelentes capacidades verbais e escritas em inglês;
+- ·        Valoriza- e o domínio do castelhano, falado e escrito;
+- ·        Disponibilidade para trabalhar em Braga;
+- ·        Experiência prévia na Área da Saúde, nomeadamente no desenvolvimento de soluções clínicas, investigação e ensaios clínicos (valoriza- e);
+- ·        Capacidade de planeamento e organização;
+- ·        Boas capacidades de comunicação e trabalho em equipas e clientes internacionais;
+- ·        Autonomia, organização e sentido de responsabilidade.
+- Desenvolvimento de novos produtos e funcionalidades (PHP);
+- Atuar no desenho de soluções e sistemas junto às áreas de negócio;
+- Trabalhar na manutenção e sustentação de sistemas e integrações API;
+- Full Stack (conhecimento em todas as áreas do ciclo de vida de desenvolvimento Web);
+- Levantamento de requisitos.
+- Gostar de trabalhar em equipe envolvendo todas as áreas da empresa;
+- Saber organizar a agenda para dar prioridade certa para cada situação apresentada;
+- Ter senso analítico e sempre trazer a conversa para os fatos e discutir os resultados;
+- Ser resiliente para lidar com as situações complexas apresentadas diariamente;
+- Criatividade para propor soluções inovadoras.
+- Curso superior completo ou em andamento na área de Tecnologia da Informação ou afins;
+- Conhecimento em PHP avançado;
+- Conhecimento em ReactJS, Node, Angular intermediário;
+- Experiência em MySQL, JQUERY e JavaScript e API REST;
+- Conhecimento em versionamento de código;
+- Vivência com metodologias ágeis.
+- Projetar soluções utilizando estrutura de microsserviços;
+- Realização de POCs e projetos pilotos para auxílio na venda e concepção de novos produtos;
+- Mapeamento e migração de sistemas legados para adequação á uma tecnologia mais moderna;
+- Apoiar time de desenvolvimento;
+- Definir uma arquitetura de solução, governança e catalogo de serviços;
+- Definição e disseminação de padrões e boas práticas de desenvolvimento;
+- Zelar pela viabilidade financeira e técnica das novas soluções;
+- Disseminar cultura de testes unitários;
+- Desenvolvimento de código com alta disponibilidade;
+- Utilizar Docker para fazer conteinerização de ambiente de desenvolvimento;
+- Utilizar o Git para versionamento de código;
+- Trabalhar com o Jira;
+- Utilizar metodologias ágeis para apoiar as atividades;
+- AWS
+- Kubernetes
+- Microsserviços
+- Serviços de mensagem Pub/Sub
+- Gerenciamento e implementação de filas
+- Container
+- Modelagem de Soluções
+- SQS/SNS
+- Terraform
+- Docker
+- DataOps
+- FinOps
+- RabbitMQ
+- Argo
+- Rancher
+- Azure
+- gitHubAction
+- Design patterns (codificação/integração)
+- Aplicação em Serverless
+- Airbyte
+- trivy
+- Docker Scout
+- Ferramenta dive docker
+- distroless
+- distroless da chainguard
+- GitHub - julianoborba/tempest- cademy- 4- ov- 023
+- GitHub - rodnt/PortSwiggerLabs: Solutions from @PortSwigger labs
+- SideChannel - Tempest - O SideChannel é um blog da Tempest
+- Sentry
+- Experiência sólida como desenvolvedor(a) backend, com proficiência em Python/C#.
+- Experiência em integração de APIs (REST, SOAP, GraphQL).
+- Experiência em sistemas de mensageria e eventos (SQS / SNS / EventBridge).
+- Experiência com bancos de dados relacionais e não relacionais (SQL Server, MySQL, MongoDB, Amazon Aurora / RDS, Amazon DynamoDB / DocumentDB).
+- Conhecimento em Vue.js
+- Conhecimento em arquitetura de microsserviços
+- Familiaridade com bureaus de crédito e APIs de consulta cadastral
+- Conhecimento em DevOps (Docker, CI/CD, GitHub Actions ou similares).
+- Uso de Swagger para documentação e integração de APIs.
+- Levantamento e deploy de sistema na AWS
+- wfuzz
+- gobuster
+- webfuzzing
+- dirb
+- dirBuster
+- httpx
+- gowitness
+- - Monitorar e manter pipelines em Dataflow e consultas em BigQuery em operação;
+- Suportar integrações via Cloud Functions e Pub/Sub garantindo funcionamento estável;
+- Gerenciar e operar APIs publicadas com Apigee, incluindo monitoramento de erros e segurança;
+- Atuar na análise e resolução de incidentes críticos em ambiente de dados.
+- Monitorar e manter pipelines em Dataflow e consultas em BigQuery em operação;
+- Suportar integrações via Cloud Functions e Pub/Sub garantindo funcionamento estável;
+- Gerenciar e operar APIs publicadas com Apigee, incluindo monitoramento de erros e segurança;
+- Atuar na análise e resolução de incidentes críticos em ambiente de dados.
