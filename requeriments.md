@@ -214,3 +214,4 @@
 - Suportar integrações via Cloud Functions e Pub/Sub garantindo funcionamento estável;
 - Gerenciar e operar APIs publicadas com Apigee, incluindo monitoramento de erros e segurança;
 - Atuar na análise e resolução de incidentes críticos em ambiente de dados.
+- playrwhite
