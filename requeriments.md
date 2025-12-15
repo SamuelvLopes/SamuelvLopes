@@ -178,6 +178,7 @@
 - Terraform
 - Docker
 - DataOps
+- Go
 - FinOps
 - RabbitMQ
 - Argo
