@@ -8,7 +8,17 @@
 - Fraud Detector
 - Amazon Transcribe
 - Amazon Comprehend
+- Python
+- Inteligência Artificial
+- LLMs (Large Language Models)
+- FastAPI
+- LangChain
+- LangGraph
 - Terraform
+- .NET
+- Integrações com APIs de viagens (Travel APIs)
+- AWS
+- Grafana
 - vue
 - spring
 - React
