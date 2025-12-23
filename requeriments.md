@@ -5,6 +5,11 @@
 - Pytorch
 - NLKT
 - Amazon
+- Experience working with high-throughput systems, handling thousands of requests per minute.
+- Familiarity with queueing systems like RabbitMQ or SQS.
+- Knowledge of caching services such as Redis.
+- Experience with Elasticsearch/OpenSearch.
+- Experience with AWS cloud services.
 - Fraud Detector
 - Amazon Transcribe
 - Amazon Comprehend
