@@ -15,6 +15,7 @@
 - Amazon Comprehend
 - Python
 - Inteligência Artificial
+- Cloudflare (TypeScript + Rust) para trabalhar com D1, KV e Queues
 - LLMs (Large Language Models)
 - FastAPI
 - LangChain
