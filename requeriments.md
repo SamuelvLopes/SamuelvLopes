@@ -20,6 +20,7 @@
 - FastAPI
 - LangChain
 - LangGraph
+- kibana
 - Terraform
 - .NET
 - Integrações com APIs de viagens (Travel APIs)
