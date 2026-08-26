@@ -47,7 +47,7 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 *Tecnologias:* Laravel, MYSQL, Vue.js
 
-### 📚 Meus projetos
+### 📚 Minhas Comunidades
 feitos com ❤️ diretamente de Recife/PE
 - Pratics- 2020
 - DDLP - 2024
