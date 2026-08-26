@@ -49,8 +49,9 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 ### 📚 Meus projetos
 feitos com ❤️ diretamente de Recife/PE
-- Pratics
-- Tecnognose
+- Pratics- 2020
+- DDLP - 2024
+- Tecnognose -2025
 
 
 
