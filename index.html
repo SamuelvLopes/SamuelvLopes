@@ -293,7 +293,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack | Serviços Continuados &amp; Data Center</div>
-          <div class="date">09/2025 — Atual</div>
+          <div class="date" data-inicio="09/2025" data-fim="atual"></div>
         </div>
         <ul>
           <li>Atuação no desenvolvimento e evolução de soluções web e mobile voltadas a operações de serviços continuados e ambientes de data center, apoiando equipes de campo, gestão de ativos, atendimento técnico, rastreamento de serviços e processos operacionais.</li>
@@ -313,7 +313,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack | Comércio Eletrônico Automotivo</div>
-          <div class="date">09/2024 — 09/2025</div>
+          <div class="date" data-inicio="09/2024" data-fim="09/2025"></div>
         </div>
         <ul>
           <li>Atuação no desenvolvimento e evolução de uma plataforma de comércio eletrônico de veículos, trabalhando em jornadas de negócio relacionadas à compra, venda, agendamento e operação digital.</li>
@@ -333,7 +333,7 @@
         </div>
         <div class="role-row">
           <div class="role">Engenheiro de Software | SRE &amp; DevOps | Cloud &amp; Architecture</div>
-          <div class="date">01/2024 — 07/2026</div>
+          <div class="date" data-inicio="01/2024" data-fim="07/2026"></div>
         </div>
         <ul>
           <li>Responsável pela arquitetura técnica, confiabilidade e operação de serviços, atuando transversalmente em projetos e equipes de diferentes clientes.</li>
@@ -353,7 +353,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack III | Liderança técnica de DevOps &amp; Cloud</div>
-          <div class="date">09/2023 — 12/2023</div>
+          <div class="date" data-inicio="09/2023" data-fim="12/2023"></div>
         </div>
         <ul>
           <li>Promovido após estruturar e implantar o processo de DevOps da plataforma do Itaú, assumindo a cadeia de testes, automação e deploy.</li>
@@ -370,7 +370,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack</div>
-          <div class="date">10/2022 — 09/2023</div>
+          <div class="date" data-inicio="10/2022" data-fim="09/2023"></div>
         </div>
         <ul>
           <li>Desenvolvimento e evolução de plataforma utilizada por equipes do Itaú para comunicação com clientes via WhatsApp.</li>
@@ -388,7 +388,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack Junior</div>
-          <div class="date">03/2022 — 10/2022</div>
+          <div class="date" data-inicio="03/2022" data-fim="10/2022"></div>
         </div>
         <ul>
           <li>Manutenção e evolução de sistema ERP/retaguarda em PHP e sistema de ponto de venda (PDV) em Java.</li>
@@ -405,7 +405,7 @@
         </div>
         <div class="role-row">
           <div class="role">Analista de Sistemas</div>
-          <div class="date">02/2020 — 03/2022</div>
+          <div class="date" data-inicio="02/2020" data-fim="03/2022"></div>
         </div>
         <ul>
           <li>Desenvolvimento de APIs e integrações em PHP entre aplicações próprias e o ERP WinThor (TOTVS), conectando fluxos comerciais e operacionais.</li>
@@ -422,7 +422,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor de Software Junior</div>
-          <div class="date">02/2019 — 12/2020</div>
+          <div class="date" data-inicio="02/2019" data-fim="12/2020"></div>
         </div>
         <ul>
           <li>Desenvolvimento e manutenção de sites, páginas institucionais, eventos e soluções de e-commerce.</li>
@@ -479,14 +479,12 @@
       }
 
       document.querySelectorAll('.entry .date').forEach(function (el) {
-        var texto = el.textContent.trim();
-        var partes = texto.split('—').map(function (s) { return s.trim(); });
-        if (partes.length !== 2) return;
-        var inicio = parseMesAno(partes[0]);
+        var inicio = parseMesAno(el.dataset.inicio || '');
         if (!inicio) return;
-        var fim = partes[1].toLowerCase() === 'atual' ? new Date() : parseMesAno(partes[1]);
+        var fimAttr = (el.dataset.fim || '').trim();
+        var fim = fimAttr.toLowerCase() === 'atual' ? new Date() : parseMesAno(fimAttr);
         if (!fim) return;
-        el.textContent = texto + ' · ' + formatDuracao(inicio, fim);
+        el.textContent = formatDuracao(inicio, fim);
       });
     })();
   </script>
