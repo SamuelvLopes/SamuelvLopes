@@ -293,7 +293,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack | Serviços Continuados &amp; Data Center</div>
-          <div class="date">Atual</div>
+          <div class="date">09/2025 — Atual</div>
         </div>
         <ul>
           <li>Atuação no desenvolvimento e evolução de soluções web e mobile voltadas a operações de serviços continuados e ambientes de data center, apoiando equipes de campo, gestão de ativos, atendimento técnico, rastreamento de serviços e processos operacionais.</li>
@@ -313,7 +313,7 @@
         </div>
         <div class="role-row">
           <div class="role">Desenvolvedor Full Stack | Comércio Eletrônico Automotivo</div>
-          <div class="date">Atual</div>
+          <div class="date">09/2024 — 09/2025</div>
         </div>
         <ul>
           <li>Atuação no desenvolvimento e evolução de uma plataforma de comércio eletrônico de veículos, trabalhando em jornadas de negócio relacionadas à compra, venda, agendamento e operação digital.</li>
@@ -458,5 +458,37 @@
       <div class="certificate-line"><div><strong>Especialização em AWS — Cloud Treinamentos</strong></div><div class="date">12/2023</div></div>
     </section>
   </main>
+
+  <script>
+    (function () {
+      function parseMesAno(str) {
+        var m = str.trim().match(/^(\d{2})\/(\d{4})$/);
+        if (!m) return null;
+        return new Date(parseInt(m[2], 10), parseInt(m[1], 10) - 1, 1);
+      }
+
+      function formatDuracao(inicio, fim) {
+        var meses = (fim.getFullYear() - inicio.getFullYear()) * 12 + (fim.getMonth() - inicio.getMonth());
+        if (meses < 1) meses = 1;
+        var anos = Math.floor(meses / 12);
+        var restoMeses = meses % 12;
+        var partes = [];
+        if (anos > 0) partes.push(anos + (anos === 1 ? ' ano' : ' anos'));
+        if (restoMeses > 0 || anos === 0) partes.push(restoMeses + (restoMeses === 1 ? ' mês' : ' meses'));
+        return partes.join(' e ');
+      }
+
+      document.querySelectorAll('.entry .date').forEach(function (el) {
+        var texto = el.textContent.trim();
+        var partes = texto.split('—').map(function (s) { return s.trim(); });
+        if (partes.length !== 2) return;
+        var inicio = parseMesAno(partes[0]);
+        if (!inicio) return;
+        var fim = partes[1].toLowerCase() === 'atual' ? new Date() : parseMesAno(partes[1]);
+        if (!fim) return;
+        el.textContent = texto + ' · ' + formatDuracao(inicio, fim);
+      });
+    })();
+  </script>
 </body>
 </html>
