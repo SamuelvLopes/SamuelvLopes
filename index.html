@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo profissional de Samuel Lopes — Software Engineer, SRE, DevOps, Cloud e Full Stack." />
+  <title>Samuel Lopes — Engenheiro de Software</title>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #5f6368;
+      --paper: #ffffff;
+      --screen: #eceff1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--screen);
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--screen);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.2pt;
+      line-height: 1.32;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .resume {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 18px auto;
+      padding: 14mm 15mm 15mm;
+      background: var(--paper);
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
+    }
+
+    header {
+      margin-bottom: 6mm;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24pt;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+    }
+
+    .headline {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 12pt;
+      font-weight: 500;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2px 14px;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .summary {
+      margin: 0;
+      text-align: justify;
+    }
+
+    section {
+      margin-top: 5mm;
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 2.3mm;
+      font-size: 11.3pt;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    h2::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+      transform: translateY(1px);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 8mm;
+      row-gap: 1.5mm;
+    }
+
+    .skill-row {
+      display: grid;
+      grid-template-columns: 31mm 1fr;
+      gap: 2mm;
+    }
+
+    .skill-row strong {
+      font-weight: 700;
+    }
+
+    .entry {
+      margin-bottom: 3.2mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .entry-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      align-items: baseline;
+    }
+
+    .company {
+      font-weight: 700;
+      font-size: 10.4pt;
+    }
+
+    .place,
+    .date {
+      color: var(--muted);
+      font-size: 9.1pt;
+      white-space: nowrap;
+    }
+
+    .role-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      align-items: baseline;
+      margin-top: 1px;
+    }
+
+    .role {
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 1.4mm 0 0 4.7mm;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.7mm 0;
+      padding-left: 1mm;
+    }
+
+    .stack {
+      margin-top: 1.4mm;
+      color: var(--muted);
+      font-size: 9pt;
+      font-weight: 600;
+    }
+
+    .education-line,
+    .certificate-line {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      margin-bottom: 1.8mm;
+      break-inside: avoid;
+    }
+
+    .education-line strong,
+    .certificate-line strong {
+      display: block;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .page-break {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      body {
+        font-size: 10pt;
+      }
+
+      .resume {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0;
+        padding: 14mm 15mm 15mm;
+        box-shadow: none;
+      }
+
+      a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+    }
+
+    @media screen and (max-width: 840px) {
+      .resume {
+        width: 100%;
+        min-height: 0;
+        margin: 0;
+        padding: 24px 20px 32px;
+        box-shadow: none;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .entry-head,
+      .role-row,
+      .education-line,
+      .certificate-line {
+        grid-template-columns: 1fr;
+        gap: 1px;
+      }
+
+      .date,
+      .place {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="resume">
+    <header>
+      <h1>Samuel Lopes</h1>
+      <div class="headline">Software Engineer | SRE &amp; DevOps | Cloud | CI/CD | Kubernetes | AWS</div>
+      <div class="contact" aria-label="Contato">
+        <span>Recife, Pernambuco, Brasil</span>
+        <span>+55 81 98827-5380</span>
+        <a href="mailto:samuelvitorprofissional@gmail.com">samuelvitorprofissional@gmail.com</a>
+        <a href="https://www.linkedin.com/in/samuel-vitor-lopes/">linkedin.com/in/samuel-vitor-lopes</a>
+        <a href="https://github.com/SamuelvLopes">github.com/SamuelvLopes</a>
+      </div>
+    </header>
+
+    <p class="summary">
+      Engenheiro de Software com experiência desde 2019, com trajetória iniciada em desenvolvimento web e Full Stack e evolução para DevOps, SRE, cloud e arquitetura de sistemas. Atuei em projetos para empresas como Itaú, Vivo, B3, Yamaha, Banco Master, Sofisa e BRQ, trabalhando em ambientes corporativos críticos e de alta escala. Tenho experiência prática com PHP/Laravel, Node.js/TypeScript, APIs e integrações, além de AWS, Docker, Kubernetes, Linux, CI/CD, observabilidade e automação. Minha base como desenvolvedor me permite atuar em infraestrutura e confiabilidade entendendo também o comportamento e as necessidades da aplicação.
+    </p>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Habilidades técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-row"><strong>Backend</strong><span>PHP, Laravel, Node.js, TypeScript, NestJS, HonoJS, Java, REST APIs</span></div>
+        <div class="skill-row"><strong>Frontend</strong><span>Vue.js, Vue 3, React, Next.js, Ionic, JavaScript, HTML, CSS</span></div>
+        <div class="skill-row"><strong>Cloud / DevOps</strong><span>AWS, Azure, GCP, Docker, Kubernetes, Helm, Rancher, Terraform, CI/CD, Linux</span></div>
+        <div class="skill-row"><strong>Dados</strong><span>PostgreSQL, MySQL, MongoDB, Redis, Oracle</span></div>
+        <div class="skill-row"><strong>Qualidade</strong><span>Cypress, Playwright, testes automatizados, code review, SonarQube</span></div>
+        <div class="skill-row"><strong>Observabilidade</strong><span>Zabbix, Elastic, monitoramento, alertas, troubleshooting, incidentes</span></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experiência profissional</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Pratics</div>
+          <div class="place">Recife, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack | Serviços Continuados &amp; Data Center</div>
+          <div class="date">Atual</div>
+        </div>
+        <ul>
+          <li>Atuação no desenvolvimento e evolução de soluções web e mobile voltadas a operações de serviços continuados e ambientes de data center, apoiando equipes de campo, gestão de ativos, atendimento técnico, rastreamento de serviços e processos operacionais.</li>
+          <li>Desenvolvimento de aplicação mobile com React, Ionic e TypeScript, incluindo leitura de QR Code para atendimento e consulta de equipamentos.</li>
+          <li>Desenvolvimento de APIs REST com NestJS e HonoJS, integrando aplicativo mobile, sistemas corporativos, rastreamento em tempo real e fluxos de ITSM.</li>
+          <li>Implementação de serviços de geolocalização e compartilhamento de coordenadas em tempo real para equipes de campo.</li>
+          <li>Desenvolvimento de dashboards administrativos com Vue.js, incluindo mapas, relatórios operacionais, gestão de ativos, ordens de serviço, estoque e base de conhecimento.</li>
+          <li>Desenvolvimento de integrações e extensões em PHP para sistemas corporativos de ITSM, com práticas de qualidade, observabilidade e evolução das aplicações.</li>
+        </ul>
+        <div class="stack">React · Ionic · TypeScript · NestJS · HonoJS · Vue.js · PHP · ITSM · REST APIs</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Pratics</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack | Comércio Eletrônico Automotivo</div>
+          <div class="date">Atual</div>
+        </div>
+        <ul>
+          <li>Atuação no desenvolvimento e evolução de uma plataforma de comércio eletrônico de veículos, trabalhando em jornadas de negócio relacionadas à compra, venda, agendamento e operação digital.</li>
+          <li>Desenvolvimento e manutenção de aplicações web utilizando Laravel/PHP no backend e Vue 3 no frontend.</li>
+          <li>Construção e refatoração de componentes reutilizáveis e interfaces responsivas, além do desenvolvimento e integração de APIs para suportar regras de negócio.</li>
+          <li>Implementação e evolução de funcionalidades relacionadas aos fluxos de compra, venda e agendamento de veículos.</li>
+          <li>Investigação e correção de bugs, manutenção de funcionalidades existentes e evolução contínua do produto.</li>
+          <li>Análise de requisitos e critérios de aceite, revisão e testes das alterações antes do fluxo de merge, mantendo responsabilidade técnica pela entrega.</li>
+        </ul>
+        <div class="stack">PHP · Laravel · Vue 3 · REST APIs · Git · testes automatizados</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Recife, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Engenheiro de Software | SRE &amp; DevOps | Cloud &amp; Architecture</div>
+          <div class="date">01/2024 — 07/2026</div>
+        </div>
+        <ul>
+          <li>Responsável pela arquitetura técnica, confiabilidade e operação de serviços, atuando transversalmente em projetos e equipes de diferentes clientes.</li>
+          <li>Gestão e evolução de ambientes e serviços em cloud, abrangendo planejamento, implantação, monitoramento, sustentação, migração e eficiência de custos.</li>
+          <li>Monitoramento operacional e tratamento de alertas com Zabbix, incluindo investigação, troubleshooting e resolução de incidentes em produção.</li>
+          <li>Definição e auditoria de práticas de engenharia com foco em segurança, escalabilidade, estabilidade, disponibilidade e qualidade.</li>
+          <li>Responsabilidade por decisões de arquitetura e processos técnicos, revisão de código, catalogação de falhas e orientação aos times.</li>
+          <li>Desenvolvimento pontual de software quando necessário para viabilizar mudanças de infraestrutura, plataforma, integrações ou armazenamento.</li>
+        </ul>
+        <div class="stack">AWS · Kubernetes · Docker · Helm · Rancher · CI/CD · Zabbix · Elastic · Redis · Linux · Git</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Recife, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack III | Liderança técnica de DevOps &amp; Cloud</div>
+          <div class="date">09/2023 — 12/2023</div>
+        </div>
+        <ul>
+          <li>Promovido após estruturar e implantar o processo de DevOps da plataforma do Itaú, assumindo a cadeia de testes, automação e deploy.</li>
+          <li>Liderança técnica transversal da frente de DevOps, expandindo processos e práticas para outros projetos e equipes da empresa.</li>
+          <li>Definição e evolução de CI/CD, testes, automação, deploy, cloud e processos de engenharia com foco em confiabilidade e padronização.</li>
+          <li>Atuação direta em incidentes de produção, troubleshooting, implantação de serviços e decisões de arquitetura de sistemas.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Recife, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack</div>
+          <div class="date">10/2022 — 09/2023</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento e evolução de plataforma utilizada por equipes do Itaú para comunicação com clientes via WhatsApp.</li>
+          <li>Atuação em ambiente de alta escala, com processamento de milhões de mensagens diariamente e integração com diversos serviços internos do banco.</li>
+          <li>Desenvolvimento Full Stack com PHP, Laravel, JavaScript, Node.js, HTML e jQuery, incluindo funcionalidades, correções, integrações e sustentação.</li>
+          <li>Atuação sob requisitos rigorosos de auditoria, segurança, privacidade e conformidade com a LGPD.</li>
+        </ul>
+        <div class="stack">PHP · Laravel · JavaScript · Node.js · HTML · jQuery · PostgreSQL · Redis</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Titan Software</div>
+          <div class="place">São Paulo, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack Junior</div>
+          <div class="date">03/2022 — 10/2022</div>
+        </div>
+        <ul>
+          <li>Manutenção e evolução de sistema ERP/retaguarda em PHP e sistema de ponto de venda (PDV) em Java.</li>
+          <li>Atendimento de tickets, correção de bugs, ajustes e evoluções em módulos de estoque, inventário, vendas e operação de PDV.</li>
+          <li>Investigação de problemas reportados em produção e implementação das correções necessárias nos sistemas afetados.</li>
+        </ul>
+        <div class="stack">PHP · Java · Laravel · React · MongoDB</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Meta 55 Distribuidora</div>
+          <div class="place">Jaboatão dos Guararapes, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Analista de Sistemas</div>
+          <div class="date">02/2020 — 03/2022</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento de APIs e integrações em PHP entre aplicações próprias e o ERP WinThor (TOTVS), conectando fluxos comerciais e operacionais.</li>
+          <li>Desenvolvimento e evolução da área do cliente, soluções de autoatendimento via WhatsApp, aplicativo Ganha Ganha e e-commerces.</li>
+          <li>Suporte a sistemas e usuários, investigação de problemas e interface técnica com fornecedores e empresas desenvolvedoras.</li>
+        </ul>
+        <div class="stack">PHP · CodeIgniter · React · Oracle · WinThor/TOTVS · REST APIs</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Instituto Internacional Despertando Vocações (IIDV)</div>
+          <div class="place">Recife, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor de Software Junior</div>
+          <div class="date">02/2019 — 12/2020</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento e manutenção de sites, páginas institucionais, eventos e soluções de e-commerce.</li>
+          <li>Implementação e customização de soluções com HTML, CSS, JavaScript, PHP, WordPress e Moodle.</li>
+          <li>Apoio à administração do Google Workspace/G Suite e demandas digitais da instituição.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Formação</h2>
+      <div class="education-line">
+        <div>
+          <strong>Instituto Federal de Pernambuco — IFPE</strong>
+          <span class="subtle">Tecnologia em Análise e Desenvolvimento de Sistemas · Recife, Brasil</span>
+        </div>
+        <div class="date">01/2019 — 12/2024</div>
+      </div>
+      <div class="education-line">
+        <div>
+          <strong>Escola Técnica Estadual ACGC</strong>
+          <span class="subtle">Técnico em Administração · Recife, Brasil</span>
+        </div>
+        <div class="date">06/2021 — 06/2023</div>
+      </div>
+    </section>
+
+    <section aria-labelledby="certificates">
+      <h2 id="certificates">Certificações e cursos</h2>
+      <div class="certificate-line"><div><strong>Novo Pentest Profissional — DESEC</strong><span class="subtle">Formação em segurança ofensiva</span></div><div class="date">Em andamento</div></div>
+      <div class="certificate-line"><div><strong>Penetration Testing — CESAR School</strong></div><div class="date">09/2024</div></div>
+      <div class="certificate-line"><div><strong>Gerenciamento de Processos com BPMN — Workfacilit</strong></div><div class="date">06/2024</div></div>
+      <div class="certificate-line"><div><strong>Especialização em AWS — Cloud Treinamentos</strong></div><div class="date">12/2023</div></div>
+    </section>
+  </main>
+</body>
+</html>
