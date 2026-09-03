@@ -15,7 +15,7 @@ Desenvolvedor Full Stack desde 2019 atuando em projetos desafiadores nos setores
 
 ## 🛠️ Habilidades
 
-- 💻 Linguagens de Programação: PHP, JavaScript, Python, Java
+- 💻 Linguagens de Programação: PHP, JavaScript, Python, Java, C#
 - 🌐 Frameworks: React, Node.js, Django, Laravel
 - 🛠️ Ferramentas: Git, Docker, GitLab, Helm, Kubernetes, Zabbix
 - 📋 Metodologias: Scrum, SAFe, Kanban
