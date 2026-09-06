@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo de Samuel Lopes direcionado à atuação como Analista de OpSec Pleno — segurança operacional, cloud, monitoramento e incidentes." />
+  <title>Samuel Lopes — Analista de OpSec Pleno</title>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #5f6368;
+      --paper: #ffffff;
+      --screen: #eceff1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--screen);
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--screen);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.2pt;
+      line-height: 1.32;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .resume {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 18px auto;
+      padding: 14mm 15mm 15mm;
+      background: var(--paper);
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
+    }
+
+    header {
+      margin-bottom: 6mm;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24pt;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+    }
+
+    .headline {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 12pt;
+      font-weight: 500;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2px 14px;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .contact a {
+      overflow-wrap: anywhere;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .summary {
+      margin: 0;
+      text-align: left;
+    }
+
+    section {
+      margin-top: 5mm;
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 2.3mm;
+      font-size: 11.3pt;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    h2 {
+      break-after: avoid;
+    }
+
+    h2::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+      transform: translateY(1px);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 8mm;
+      row-gap: 1.5mm;
+    }
+
+    .skill-row {
+      display: grid;
+      grid-template-columns: 31mm 1fr;
+      gap: 2mm;
+    }
+
+    .skill-row strong {
+      font-weight: 700;
+    }
+
+    .entry {
+      margin-bottom: 3.2mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .entry-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      align-items: baseline;
+    }
+
+    .company {
+      font-weight: 700;
+      font-size: 10.4pt;
+    }
+
+    .place,
+    .date {
+      color: var(--muted);
+      font-size: 9.1pt;
+      white-space: nowrap;
+    }
+
+    .role-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      align-items: baseline;
+      margin-top: 1px;
+    }
+
+    .role {
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 1.4mm 0 0 4.7mm;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.7mm 0;
+      padding-left: 1mm;
+    }
+
+    .stack {
+      margin-top: 1.4mm;
+      color: var(--muted);
+      font-size: 9pt;
+      font-weight: 600;
+    }
+
+    .education-line,
+    .certificate-line {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6mm;
+      margin-bottom: 1.8mm;
+      break-inside: avoid;
+    }
+
+    .education-line strong,
+    .certificate-line strong {
+      display: block;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 9.2pt;
+    }
+
+    .page-break {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    @page {
+      size: A4;
+      margin: 14mm 15mm 15mm;
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      body {
+        font-size: 10pt;
+      }
+
+      .resume {
+        width: auto;
+        min-height: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+
+      a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+    }
+
+    @media screen and (max-width: 840px) {
+      .resume {
+        width: 100%;
+        min-height: 0;
+        margin: 0;
+        padding: 24px 20px 32px;
+        box-shadow: none;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .entry-head,
+      .role-row,
+      .education-line,
+      .certificate-line {
+        grid-template-columns: 1fr;
+        gap: 1px;
+      }
+
+      .date,
+      .place {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="resume">
+    <header>
+      <h1>Samuel Lopes</h1>
+      <div class="headline">Objetivo: Analista de OpSec Pleno | Segurança Operacional</div>
+      <div class="contact" aria-label="Contato">
+        <span>Recife, Pernambuco, Brasil</span>
+        <span>+55 81 98827-5380</span>
+        <a href="mailto:samuelvitorprofissional@gmail.com">samuelvitorprofissional@gmail.com</a>
+        <a href="https://www.linkedin.com/in/samuel-vitor-lopes/">linkedin.com/in/samuel-vitor-lopes</a>
+        <a href="https://github.com/SamuelvLopes">github.com/SamuelvLopes</a>
+      </div>
+    </header>
+
+    <p class="summary">
+      Profissional de tecnologia com experiência desde 2019 em desenvolvimento de software, DevOps, SRE e operação de ambientes cloud. Busco atuar como Analista de OpSec Pleno, aplicando minha experiência em monitoramento, investigação e resolução de incidentes em produção, revisão de código e definição e auditoria de práticas de engenharia com foco em segurança e disponibilidade. Atuação em projetos do setor financeiro, incluindo plataforma utilizada pelo Itaú, sob requisitos de auditoria, privacidade e LGPD. Base prática em AWS, Linux, Kubernetes, Docker, CI/CD, Zabbix e Elastic, complementada por curso de Penetration Testing na CESAR School e formação em segurança ofensiva pela DESEC em andamento.
+    </p>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">Habilidades técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-row"><strong>Operação e incidentes</strong><span>Monitoramento, tratamento de alertas, troubleshooting, resolução de incidentes em produção e catalogação de falhas</span></div>
+        <div class="skill-row"><strong>Segurança e qualidade</strong><span>Auditoria de práticas de engenharia, revisão de código, SonarQube e atuação sob requisitos de segurança, privacidade e LGPD</span></div>
+        <div class="skill-row"><strong>Cloud e infraestrutura</strong><span>AWS, Linux, Docker, Kubernetes, Helm, Rancher e Terraform</span></div>
+        <div class="skill-row"><strong>Observabilidade</strong><span>Zabbix, Elastic, monitoramento de serviços e investigação de falhas</span></div>
+        <div class="skill-row"><strong>Automação e entrega</strong><span>CI/CD, Git, testes automatizados, Cypress e Playwright</span></div>
+        <div class="skill-row"><strong>Aplicações e dados</strong><span>PHP, Laravel, Node.js, TypeScript, APIs REST, PostgreSQL, MySQL e Redis</span></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experiência profissional</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Pratics</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack | Serviços Continuados &amp; Data Center</div>
+          <div class="date">09/2025 — Atual</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento e evolução de soluções para serviços continuados e ambientes de data center, apoiando atendimento técnico, gestão de ativos e rastreamento de serviços.</li>
+          <li>Integração de APIs REST e sistemas corporativos de ITSM, conectando aplicações mobile, equipes de campo e processos operacionais.</li>
+          <li>Desenvolvimento de dashboards com relatórios operacionais, ordens de serviço e base de conhecimento, além de extensões em PHP com práticas de qualidade e observabilidade.</li>
+        </ul>
+        <div class="stack">React · Ionic · TypeScript · NestJS · HonoJS · Vue.js · PHP · ITSM · REST APIs</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Pratics</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack | Comércio Eletrônico Automotivo</div>
+          <div class="date">09/2024 — 09/2025</div>
+        </div>
+        <ul>
+          <li>Investigação e correção de bugs em plataforma de comércio eletrônico automotivo, com manutenção e evolução de aplicações Laravel/PHP e Vue 3.</li>
+          <li>Análise de requisitos e critérios de aceite, revisão e testes das alterações antes do merge, mantendo responsabilidade técnica pela entrega.</li>
+        </ul>
+        <div class="stack">PHP · Laravel · Vue 3 · REST APIs · Git · testes automatizados</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Engenheiro de Software | SRE &amp; DevOps | Cloud &amp; Architecture</div>
+          <div class="date">01/2024 — 07/2026</div>
+        </div>
+        <ul>
+          <li>Monitoramento operacional e tratamento de alertas com Zabbix, incluindo investigação, troubleshooting e resolução de incidentes em produção.</li>
+          <li>Definição e auditoria de práticas de engenharia com foco em segurança, estabilidade, disponibilidade, escalabilidade e qualidade.</li>
+          <li>Gestão e evolução de ambientes cloud: planejamento, implantação, monitoramento, sustentação e migração de serviços.</li>
+          <li>Revisão de código, catalogação de falhas e orientação técnica aos times, com responsabilidade pela arquitetura e confiabilidade dos serviços.</li>
+        </ul>
+        <div class="stack">AWS · Kubernetes · Docker · Helm · Rancher · CI/CD · Zabbix · Elastic · Redis · Linux · Git</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack III | Liderança técnica de DevOps &amp; Cloud</div>
+          <div class="date">09/2023 — 12/2023</div>
+        </div>
+        <ul>
+          <li>Estruturação e implantação do processo de DevOps da plataforma do Itaú, assumindo a cadeia de testes, automação e deploy e sendo promovido a Full Stack III.</li>
+          <li>Liderança técnica de DevOps e expansão de práticas de CI/CD, cloud e padronização de entregas para outros projetos e equipes.</li>
+          <li>Atuação direta em incidentes de produção, troubleshooting, implantação de serviços e decisões de arquitetura.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Workfacilit</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack</div>
+          <div class="date">10/2022 — 09/2023</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento e sustentação de plataforma utilizada por equipes do Itaú para comunicação com clientes via WhatsApp, com processamento de milhões de mensagens diariamente.</li>
+          <li>Atuação sob requisitos rigorosos de auditoria, segurança, privacidade e conformidade com a LGPD.</li>
+          <li>Manutenção de aplicações e integrações com serviços internos do banco, utilizando PHP, Laravel, JavaScript e Node.js.</li>
+        </ul>
+        <div class="stack">PHP · Laravel · JavaScript · React Native · Node.js · HTML · jQuery · PostgreSQL · Redis</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Titan Software</div>
+          <div class="place">São Paulo, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor Full Stack Junior</div>
+          <div class="date">03/2022 — 10/2022</div>
+        </div>
+        <ul>
+          <li>Investigação de problemas em produção, atendimento de tickets e correção de falhas em ERP PHP e ponto de venda Java.</li>
+        </ul>
+        <div class="stack">PHP · Java · Laravel · React · MongoDB</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Meta 55 Distribuidora</div>
+          <div class="place">Jaboatão dos Guararapes, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Analista de Sistemas</div>
+          <div class="date">02/2020 — 03/2022</div>
+        </div>
+        <ul>
+          <li>Suporte a sistemas e usuários, investigação de problemas e interface técnica com fornecedores.</li>
+          <li>Desenvolvimento de APIs e integrações entre aplicações próprias e o ERP WinThor (TOTVS), conectando fluxos comerciais e operacionais.</li>
+        </ul>
+        <div class="stack">PHP · CodeIgniter · React · Oracle · WinThor/TOTVS · REST APIs</div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="company">Instituto Internacional Despertando Vocações (IIDV)</div>
+          <div class="place">Remoto, Brasil</div>
+        </div>
+        <div class="role-row">
+          <div class="role">Desenvolvedor de Software Junior</div>
+          <div class="date">02/2019 — 12/2020</div>
+        </div>
+        <ul>
+          <li>Desenvolvimento e manutenção de aplicações web em PHP, WordPress e Moodle, com apoio à administração do Google Workspace/G Suite.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Formação</h2>
+      <div class="education-line">
+        <div>
+          <strong>Instituto Federal de Pernambuco — IFPE</strong>
+          <span class="subtle">Tecnologia em Análise e Desenvolvimento de Sistemas · Recife, Brasil</span>
+        </div>
+        <div class="date">01/2019 — 12/2024</div>
+      </div>
+      <div class="education-line">
+        <div>
+          <strong>Escola Técnica Estadual ACGC</strong>
+          <span class="subtle">Técnico em Administração · Recife, Brasil</span>
+        </div>
+        <div class="date">06/2021 — 06/2023</div>
+      </div>
+    </section>
+
+    <section aria-labelledby="certificates">
+      <h2 id="certificates">Cursos e formação complementar</h2>
+      <div class="certificate-line"><div><strong>Novo Pentest Profissional — DESEC</strong><span class="subtle">Formação em segurança ofensiva</span></div><div class="date">Em andamento</div></div>
+      <div class="certificate-line"><div><strong>Penetration Testing — CESAR School</strong></div><div class="date">09/2024</div></div>
+      <div class="certificate-line"><div><strong>Gerenciamento de Processos com BPMN — Workfacilit</strong></div><div class="date">06/2024</div></div>
+      <div class="certificate-line"><div><strong>Especialização em AWS — Cloud Treinamentos</strong></div><div class="date">12/2023</div></div>
+    </section>
+
+    <section aria-labelledby="languages">
+      <h2 id="languages">Idiomas</h2>
+      <p>Português nativo · Inglês técnico</p>
+    </section>
+  </main>
+
+</body>
+</html>
