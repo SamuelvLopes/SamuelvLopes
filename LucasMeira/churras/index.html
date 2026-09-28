@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco & Conspiração - Arquivo Confidencial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #4ade80; /* Tailwind green-400 */
+            font-family: 'Share Tech Mono', monospace;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at center, transparent 50%, #000 100%),
+                linear-gradient(rgba(0, 255, 0, 0.03) 50%, rgba(0, 0, 0, 0.1) 50%);
+            background-size: 100% 100%, 100% 4px;
+        }
+
+        /* Scanline effect */
+        body::after {
+            content: " ";
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 2;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+
+        .typewriter-font {
+            font-family: 'Special Elite', cursive;
+        }
+
+        .flicker {
+            animation: flicker 4s infinite;
+        }
+
+        @keyframes flicker {
+            0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% { opacity: 1; }
+            20%, 21.999%, 63%, 63.999%, 65%, 69.999% { opacity: 0.4; }
+        }
+
+        .stamp {
+            color: #ef4444;
+            border: 4px solid #ef4444;
+            font-family: 'Special Elite', cursive;
+            text-transform: uppercase;
+            transform: rotate(-15deg);
+            opacity: 0.8;
+            mix-blend-mode: multiply;
+            box-shadow: inset 0 0 10px rgba(239, 68, 68, 0.3);
+        }
+
+        .neon-text {
+            text-shadow: 0 0 5px #4ade80, 0 0 15px #4ade80, 0 0 20px #22c55e;
+        }
+        
+        .fire-text {
+            color: #f97316;
+            text-shadow: 0 0 5px #ef4444, 0 0 15px #ea580c, 0 0 20px #f97316;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 sm:p-8">
+
+    <div class="relative w-full max-w-3xl bg-gray-900 border border-green-500/50 p-6 sm:p-10 shadow-[0_0_30px_rgba(34,197,94,0.15)] rounded-sm z-10">
+        
+        <!-- Carimbo Top Secret -->
+        <div class="absolute top-8 right-4 sm:right-10 stamp px-4 py-2 text-2xl sm:text-4xl font-bold rounded z-20 pointer-events-none">
+            ULTRA SECRETO
+        </div>
+
+        <header class="text-center mb-10 mt-4 border-b border-green-500/30 pb-6">
+            <p class="text-xs sm:text-sm text-green-600 mb-2 tracking-widest">ARQUIVO #C0410 - DEPARTAMENTO DE ANOMALIAS GASTRONÔMICAS</p>
+            <h1 class="text-4xl sm:text-6xl font-black mb-2 flex flex-col items-center gap-2">
+                <span class="fire-text flicker">CHURRASCO</span> 
+                <span class="text-2xl sm:text-3xl">&</span> 
+                <span class="neon-text">CONSPIRAÇÃO</span>
+            </h1>
+            <p class="mt-4 text-gray-400 text-sm">O ALVO FOI IDENTIFICADO. A GRELHA ESTÁ AQUECIDA.</p>
+        </header>
+
+        <main class="space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 typewriter-font text-lg text-green-300">
+                <div class="border border-green-800/50 p-4 bg-black/40">
+                    <p class="text-green-500 text-sm mb-1 uppercase font-sans tracking-widest">Data de Interceptação</p>
+                    <p class="text-2xl text-white">04 DE OUTUBRO</p>
+                    <p class="text-sm mt-1 text-gray-400">Ponto de Encontro Noturno</p>
+                </div>
+                
+                <div class="border border-green-800/50 p-4 bg-black/40">
+                    <p class="text-green-500 text-sm mb-1 uppercase font-sans tracking-widest">Coordenadas Exatas</p>
+                    <p class="text-xl text-white">Luar do Parque</p>
+                    <p class="text-sm mt-1 text-gray-400">Rua Jorge de Lima, 121</p>
+                </div>
+            </div>
+
+            <div class="relative mt-8 p-6 border-2 border-red-600 bg-red-950/20 rounded-sm">
+                <div class="absolute -top-3 left-4 bg-gray-900 px-2 text-red-500 text-sm font-bold flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                    DIRETRIZ OBRIGATÓRIA
+                </div>
+                <h2 class="text-xl sm:text-2xl text-red-400 font-bold mb-3 typewriter-font">MANDADO DE INTIMAÇÃO COMPROBATÓRIA:</h2>
+                <p class="text-gray-300 leading-relaxed text-sm sm:text-base">
+                    A presença no perímetro designado requer estrita obediência ao protocolo <span class="text-red-400 font-bold">X-TUDO</span>. 
+                    <strong class="text-white bg-red-900/40 px-1">CADA CONVIDADO DEVERÁ TRAZER 1 (UMA) TEORIA DA CONSPIRAÇÃO.</strong>
+                </p>
+                <p class="text-gray-300 leading-relaxed text-sm sm:text-base mt-2">
+                    O agente deverá, sem exceções, <span class="text-red-400 underline decoration-red-500/50">mostrar os fatos e evidências</span> que comprovam a sua conclusão perante o conselho intergaláctico da grelha. Prepare seu dossiê. A verdade está lá fora (e a carne está no fogo).
+                </p>
+            </div>
+
+            <div class="mt-12 text-center border-t border-green-500/30 pt-8">
+                <p class="text-green-600 text-sm mb-4 tracking-widest">TEMPO ATÉ A INVASÃO (INÍCIO DO EVENTO)</p>
+                <div id="countdown" class="flex justify-center gap-2 sm:gap-6 text-center">
+                    <div class="flex flex-col">
+                        <span id="days" class="text-3xl sm:text-5xl font-bold text-white neon-text">00</span>
+                        <span class="text-xs sm:text-sm text-green-500 mt-1">DIAS</span>
+                    </div>
+                    <span class="text-3xl sm:text-5xl text-green-700 animate-pulse">:</span>
+                    <div class="flex flex-col">
+                        <span id="hours" class="text-3xl sm:text-5xl font-bold text-white neon-text">00</span>
+                        <span class="text-xs sm:text-sm text-green-500 mt-1">HORAS</span>
+                    </div>
+                    <span class="text-3xl sm:text-5xl text-green-700 animate-pulse">:</span>
+                    <div class="flex flex-col">
+                        <span id="minutes" class="text-3xl sm:text-5xl font-bold text-white neon-text">00</span>
+                        <span class="text-xs sm:text-sm text-green-500 mt-1">MIN</span>
+                    </div>
+                    <span class="text-3xl sm:text-5xl text-green-700 animate-pulse">:</span>
+                    <div class="flex flex-col">
+                        <span id="seconds" class="text-3xl sm:text-5xl font-bold text-red-400 text-shadow-red">00</span>
+                        <span class="text-xs sm:text-sm text-red-500 mt-1">SEG</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <button onclick="confirmarPresenca()" class="bg-green-600 hover:bg-green-500 text-black font-bold py-3 px-8 rounded-sm transition-all duration-300 uppercase tracking-widest hover:shadow-[0_0_15px_#22c55e] transform hover:-translate-y-1">
+                    Confirmar Transmissão (Presença)
+                </button>
+                <div id="msg-confimacao" class="hidden mt-4 text-green-400 typewriter-font text-sm">
+                    > SINAL RECEBIDO. IDENTIDADE CONFIRMADA. TRAGA AS PROVAS.
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Função para mostrar a mensagem de confirmação
+        function confirmarPresenca() {
+            const msg = document.getElementById('msg-confimacao');
+            msg.classList.remove('hidden');
+            msg.classList.add('flicker');
+        }
+
+        // Lógica da contagem regressiva
+        function startCountdown() {
+            // Define a data alvo: 4 de Outubro do ano atual (ou próximo se já passou)
+            const now = new Date();
+            let targetYear = now.getFullYear();
+            let targetDate = new Date(`October 4, ${targetYear} 19:00:00`);
+
+            // Se hoje for depois de 4 de outubro, aponta para o próximo ano
+            if (now.getTime() > targetDate.getTime()) {
+                targetDate = new Date(`October 4, ${targetYear + 1} 19:00:00`);
+            }
+
+            const daysEl = document.getElementById('days');
+            const hoursEl = document.getElementById('hours');
+            const minutesEl = document.getElementById('minutes');
+            const secondsEl = document.getElementById('seconds');
+
+            function update() {
+                const currentTime = new Date();
+                const difference = targetDate - currentTime;
+
+                if (difference <= 0) {
+                    document.getElementById('countdown').innerHTML = "<div class='text-4xl text-red-500 fire-text w-full text-center'>A INVASÃO COMEÇOU!</div>";
+                    return;
+                }
+
+                const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const h = Math.floor((difference / (1000 * 60 * 60)) % 24);
+                const m = Math.floor((difference / 1000 / 60) % 60);
+                const s = Math.floor((difference / 1000) % 60);
+
+                daysEl.innerText = d.toString().padStart(2, '0');
+                hoursEl.innerText = h.toString().padStart(2, '0');
+                minutesEl.innerText = m.toString().padStart(2, '0');
+                secondsEl.innerText = s.toString().padStart(2, '0');
+            }
+
+            // Atualiza imediatamente e depois a cada segundo
+            update();
+            setInterval(update, 1000);
+        }
+
+        // Inicia o timer quando a janela carrega
+        window.onload = startCountdown;
+    </script>
+</body>
+</html>
