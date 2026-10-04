@@ -5,6 +5,18 @@
 *{box-sizing:border-box}body{margin:0;background:#050608;color:#eee;font-family:Georgia,serif;overflow:hidden}.deck{height:100vh}.slide{display:none;height:100vh;padding:7vh 8vw;position:relative;overflow:hidden}.slide.active{display:flex;flex-direction:column;justify-content:center}.slide:after{content:attr(data-n);position:absolute;right:3vw;bottom:2vh;color:#777;font:14px Arial}h1{font-size:clamp(42px,6vw,92px);margin:0 0 3vh;line-height:1.02}h2{font-size:clamp(34px,5vw,72px);margin:0 0 4vh}p,li{font:clamp(19px,2vw,32px)/1.45 Arial,sans-serif}.small{font-size:clamp(15px,1.3vw,20px);color:#aaa}.gold{color:#d8b35a}.red{color:#d94b4b}.center{text-align:center}.timeline{display:flex;gap:18px;align-items:stretch}.event{flex:1;border:1px solid #555;padding:24px;background:#0c0e12}.event b{font-size:2rem;color:#d8b35a}.quote{font-size:clamp(30px,4vw,62px);font-style:italic;border-left:5px solid #d94b4b;padding-left:30px}.web{background:radial-gradient(circle,#321010 0,#090909 55%,#030303 100%)}.web h2{text-shadow:0 0 18px #a00}.fact{border-left:4px solid #d8b35a;padding-left:20px}.theory{border-left:4px solid #d94b4b;padding-left:20px}.controls{position:fixed;bottom:2vh;left:3vw;font:13px Arial;color:#666;z-index:5}.black{background:#000}.huge{font-size:clamp(48px,8vw,120px)}ul{max-width:1100px}kbd{border:1px solid #555;padding:2px 6px;border-radius:4px}
 .iceberg,.mural{background-size:cover;background-position:center}.iceberg{background-image:linear-gradient(#04111ddd,#02060be8)}.mural{background-image:radial-gradient(circle at 50% 50%,#2b100f 0,#070707 65%,#000 100%)}
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{border:1px solid #633;padding:14px;background:#160d0dbd;min-height:110px;font:16px/1.3 Arial}.level{padding:12px 18px;border-left:5px solid #d94b4b;background:#0c0e12;margin:7px 0;font:20px/1.3 Arial}.level b{color:#d8b35a}
+.conspiracy-wall{position:relative;height:66vh;border:1px solid #4b1f1f;background:
+linear-gradient(14deg,transparent 49.7%,#6d232355 50%,transparent 50.3%),
+linear-gradient(-19deg,transparent 49.7%,#6d232344 50%,transparent 50.3%),
+radial-gradient(circle at 50% 45%,#230d0dcc,#050505 70%);overflow:hidden;box-shadow:inset 0 0 80px #000}
+.pin{position:absolute;padding:7px 10px;border:1px solid #6e4e3a;background:#e8ddc7;color:#17120e;font:bold 12px/1.05 Arial;transform:rotate(var(--r));box-shadow:0 5px 18px #000b;max-width:150px;text-align:center}
+.pin.dark{background:#160d0d;color:#f0d7b0;border-color:#833}
+.pin.gold{background:#2a2110;color:#f0cf75;border-color:#9b7936}
+.pin.big{font-size:17px;padding:11px 13px}
+.pin.red{background:#420f0f;color:#ffd7cf;border-color:#b34}
+.thread{position:absolute;height:2px;background:#a32222;transform-origin:left center;opacity:.65;box-shadow:0 0 4px #a00}
+.wall-center{position:absolute;left:43%;top:39%;width:14%;padding:15px 8px;background:#090909;border:2px solid #d94b4b;color:#fff;text-align:center;font:bold 18px Arial;box-shadow:0 0 25px #a00;z-index:3}
+.wall-caption{position:absolute;bottom:10px;left:16px;right:16px;text-align:center;font:14px Arial;color:#aaa;letter-spacing:.06em}
 </style></head><body><div class="deck">
 <section class="slide active center" data-n="1"><h1>A CONSPIRAÇÃO MAIS ANTIGA<br>DA HUMANIDADE</h1><p class="gold">Não começou com Rockefeller. Não começou em Davos.</p><p class="small">Começou muito antes.</p></section>
 <section class="slide iceberg" data-n="2"><h2>O ICEBERG</h2>
@@ -29,11 +41,47 @@
 <section class="slide" data-n="14"><h2>1970 → 1971 → 1972</h2><div class="timeline"><div class="event"><b>1970</b><p>Comissão americana sobre crescimento populacional, presidida por John D. Rockefeller III.</p></div><div class="event"><b>1971</b><p>Primeiro encontro de Davos. Nixon suspende a conversibilidade internacional do dólar em ouro.</p></div><div class="event"><b>1972</b><p>Relatório <i>Population and the American Future</i>.</p></div></div><p class="small">As datas são reais. A causalidade secreta é a conspiração.</p></section>
 <section class="slide center" data-n="15"><p class="huge">TIRARAM<br><span class="gold">O LASTRO</span>.</p><p class="quote">“Primeiro do dinheiro. Depois da família.”</p></section>
 <section class="slide web" data-n="16"><h2>A Nova Babel</h2><p>Babel terminou com povos dispersos.</p><p>Milênios depois: moeda global, redes globais, instituições globais, comunicação instantânea.</p><p class="theory">A humanidade está sendo reunificada — mas, na teoria, <span class="red">sem Deus</span>.</p></section>
-<section class="slide mural" data-n="17"><h2>O MURAL DA CONSPIRAÇÃO</h2><div class="grid">
-<div class="card">BABEL<br><b>fragmentação dos povos</b></div><div class="card">SALOMÃO / OFIR<br><b>ouro e conhecimento</b></div><div class="card">TEMPLO / MAÇONARIA<br><b>símbolos e iniciação</b></div><div class="card">13<br><b>As Treze Casas</b></div>
-<div class="card">DIVISÃO DA IGREJA<br><b>cismas e Reforma</b></div><div class="card">LEVIATÃ<br><b>Estado e força</b></div><div class="card">GUERRAS<br><b>sacrifício industrial</b></div><div class="card">EUGENIA<br><b>controle populacional</b></div>
-<div class="card">1970<br><b>comissão populacional</b></div><div class="card">1971<br><b>Davos + fim do ouro</b></div><div class="card">1972<br><b>relatório populacional</b></div><div class="card">NOVA BABEL<br><b>unificação sem Deus</b></div>
-</div><p class="quote">“Dividir. Fragmentar. Enfraquecer. Controlar. Atrasar.”</p></section>
+<section class="slide mural" data-n="17"><h2>O MURAL DA CONSPIRAÇÃO</h2>
+<div class="conspiracy-wall">
+<div class="thread" style="left:14%;top:24%;width:37%;transform:rotate(17deg)"></div>
+<div class="thread" style="left:21%;top:63%;width:31%;transform:rotate(-21deg)"></div>
+<div class="thread" style="left:51%;top:46%;width:35%;transform:rotate(14deg)"></div>
+<div class="thread" style="left:50%;top:45%;width:29%;transform:rotate(-30deg)"></div>
+<div class="thread" style="left:10%;top:78%;width:43%;transform:rotate(-11deg)"></div>
+<div class="thread" style="left:50%;top:46%;width:40%;transform:rotate(37deg)"></div>
+<div class="thread" style="left:34%;top:13%;width:23%;transform:rotate(69deg)"></div>
+<div class="thread" style="left:18%;top:41%;width:34%;transform:rotate(3deg)"></div>
+
+<div class="pin big gold" style="left:4%;top:7%;--r:-4deg">BABEL</div>
+<div class="pin" style="left:18%;top:10%;--r:3deg">SALOMÃO / OFIR</div>
+<div class="pin dark" style="left:34%;top:6%;--r:-2deg">TEMPLO DE SALOMÃO</div>
+<div class="pin red" style="left:56%;top:8%;--r:4deg">ILLUMINATI</div>
+<div class="pin" style="left:74%;top:7%;--r:-5deg">VATICANO</div>
+<div class="pin gold" style="left:87%;top:15%;--r:3deg">13 FAMÍLIAS</div>
+
+<div class="pin" style="left:5%;top:31%;--r:5deg">BOOK OF ENOCH</div>
+<div class="pin dark" style="left:20%;top:28%;--r:-4deg">NEPHILIM</div>
+<div class="pin" style="left:32%;top:29%;--r:2deg">ANUNNAKI</div>
+<div class="pin big red" style="left:70%;top:31%;--r:-2deg">NOVA ORDEM MUNDIAL</div>
+<div class="pin dark" style="left:86%;top:38%;--r:4deg">DEEP STATE</div>
+
+<div class="pin" style="left:5%;top:54%;--r:-3deg">ATLÂNTIDA</div>
+<div class="pin gold" style="left:16%;top:62%;--r:4deg">TESLA / ENERGIA LIVRE</div>
+<div class="pin dark" style="left:31%;top:57%;--r:-5deg">ROSWELL / AREA 51</div>
+<div class="pin big" style="left:71%;top:57%;--r:3deg">DAVOS / ROCKEFELLER</div>
+<div class="pin red" style="left:87%;top:62%;--r:5deg">EUGENIA</div>
+
+<div class="pin dark" style="left:4%;top:79%;--r:2deg">REPTILIANOS</div>
+<div class="pin" style="left:20%;top:81%;--r:-4deg">PLEIADIANOS</div>
+<div class="pin gold" style="left:36%;top:78%;--r:3deg">DNA 12 STRANDS</div>
+<div class="pin" style="left:59%;top:80%;--r:3deg">MKULTRA / MONTAUK</div>
+<div class="pin dark" style="left:76%;top:80%;--r:4deg">HAARP / BLUE BEAM</div>
+<div class="pin red" style="left:89%;top:82%;--r:-3deg">SATURN / BLACK CUBE</div>
+
+<div class="wall-center">TUDO ESTÁ<br>CONECTADO?</div>
+<div class="wall-caption">Bíblia · ocultismo · ufologia · sociedades secretas · política · ciência marginal · Nova Era · operações secretas</div>
+</div>
+<p class="small center">O mapa original mistura centenas de temas reais, religiosos, esotéricos e especulativos. Aqui ele vira estética de “quadro investigativo”, não prova de conexão factual.</p></section>
 <section class="slide" data-n="18"><h2>O último obstáculo</h2><p class="fact">Ainda existem povos indígenas em isolamento voluntário, e políticas públicas restringem contatos externos para protegê-los de violência e doenças.</p><p class="theory">A inversão conspiratória pergunta: e se impedir o contato também atrasasse a chegada do Evangelho?</p></section>
 <section class="slide black center" data-n="19"><h1>O OBJETIVO NUNCA FOI<br>GOVERNAR O MUNDO.</h1><h2 class="gold">FOI GANHAR TEMPO.</h2></section>
 <section class="slide black center" data-n="20"><p class="huge">PORQUE ELE SABE<br>COMO TERMINA.</p></section>
