@@ -1,493 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Currículo profissional de Samuel Lopes — Software Engineer, SRE, DevOps, Cloud e Full Stack." />
-  <title>Samuel Lopes — Engenheiro de Software</title>
-  <style>
-    :root {
-      --ink: #202124;
-      --muted: #5f6368;
-      --line: #5f6368;
-      --paper: #ffffff;
-      --screen: #eceff1;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      background: var(--screen);
-    }
-
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: var(--screen);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 10.2pt;
-      line-height: 1.32;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .resume {
-      width: 210mm;
-      min-height: 297mm;
-      margin: 18px auto;
-      padding: 14mm 15mm 15mm;
-      background: var(--paper);
-      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.12);
-    }
-
-    header {
-      margin-bottom: 6mm;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 24pt;
-      line-height: 1.05;
-      font-weight: 700;
-      letter-spacing: -0.4px;
-    }
-
-    .headline {
-      margin-top: 2px;
-      color: var(--muted);
-      font-size: 12pt;
-      font-weight: 500;
-    }
-
-    .contact {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2px 14px;
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: 9.2pt;
-    }
-
-    .contact a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .summary {
-      margin: 0;
-      text-align: justify;
-    }
-
-    section {
-      margin-top: 5mm;
-    }
-
-    h2 {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin: 0 0 2.3mm;
-      font-size: 11.3pt;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-
-    h2::after {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background: var(--line);
-      transform: translateY(1px);
-    }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 8mm;
-      row-gap: 1.5mm;
-    }
-
-    .skill-row {
-      display: grid;
-      grid-template-columns: 31mm 1fr;
-      gap: 2mm;
-    }
-
-    .skill-row strong {
-      font-weight: 700;
-    }
-
-    .entry {
-      margin-bottom: 3.2mm;
-      break-inside: avoid;
-      page-break-inside: avoid;
-    }
-
-    .entry-head {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 6mm;
-      align-items: baseline;
-    }
-
-    .company {
-      font-weight: 700;
-      font-size: 10.4pt;
-    }
-
-    .place,
-    .date {
-      color: var(--muted);
-      font-size: 9.1pt;
-      white-space: nowrap;
-    }
-
-    .role-row {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 6mm;
-      align-items: baseline;
-      margin-top: 1px;
-    }
-
-    .role {
-      font-weight: 700;
-    }
-
-    ul {
-      margin: 1.4mm 0 0 4.7mm;
-      padding: 0;
-    }
-
-    li {
-      margin: 0.7mm 0;
-      padding-left: 1mm;
-    }
-
-    .stack {
-      margin-top: 1.4mm;
-      color: var(--muted);
-      font-size: 9pt;
-      font-weight: 600;
-    }
-
-    .education-line,
-    .certificate-line {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 6mm;
-      margin-bottom: 1.8mm;
-      break-inside: avoid;
-    }
-
-    .education-line strong,
-    .certificate-line strong {
-      display: block;
-    }
-
-    .subtle {
-      color: var(--muted);
-      font-size: 9.2pt;
-    }
-
-    .page-break {
-      break-before: page;
-      page-break-before: always;
-    }
-
-    @page {
-      size: A4;
-      margin: 0;
-    }
-
-    @media print {
-      html,
-      body {
-        background: #fff;
-      }
-
-      body {
-        font-size: 10pt;
-      }
-
-      .resume {
-        width: 210mm;
-        min-height: 297mm;
-        margin: 0;
-        padding: 14mm 15mm 15mm;
-        box-shadow: none;
-      }
-
-      a {
-        color: inherit !important;
-        text-decoration: none !important;
-      }
-    }
-
-    @media screen and (max-width: 840px) {
-      .resume {
-        width: 100%;
-        min-height: 0;
-        margin: 0;
-        padding: 24px 20px 32px;
-        box-shadow: none;
-      }
-
-      .skills-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .entry-head,
-      .role-row,
-      .education-line,
-      .certificate-line {
-        grid-template-columns: 1fr;
-        gap: 1px;
-      }
-
-      .date,
-      .place {
-        white-space: normal;
-      }
-    }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1120">
+<meta name="description" content="Conheça a história, carreira e projetos de Samuel Lopes: engenharia de software, plataforma, cloud, segurança e empreendedorismo.">
+<meta property="og:title" content="Samuel Lopes — Engenharia, produtos e história">
+<meta property="og:description" content="Uma autobiografia profissional interativa: minha trajetória, o que construí e o que aprendi.">
+<meta property="og:type" content="website">
+<title>Samuel Lopes · Minha história</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080d18;--panel:#111a2c;--panel2:#172238;--text:#f5f7fb;--muted:#a0adc0;--line:#29374c;--accent:#a6f2cf;--accent2:#8ab8ff;--glow:rgba(166,242,207,.12);color-scheme:dark}
+:root[data-theme="light"]{--bg:#f3f6fb;--panel:#fff;--panel2:#eaf0f9;--text:#142033;--muted:#586b83;--line:#d5deec;--accent:#147c65;--accent2:#3166b7;--glow:rgba(20,124,101,.09);color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}button,a{font:inherit}a{color:inherit}button{cursor:pointer}::selection{background:var(--accent);color:var(--bg)}
+.container{max-width:1150px;margin:auto;padding:0 28px}.nav{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav-inner{min-height:76px;display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.06em;font-size:25px;text-decoration:none}.brand span{color:var(--accent)}.navlinks{display:flex;flex-wrap:wrap;gap:22px;align-items:center}.navlinks a{text-decoration:none;color:var(--muted);font-size:13px;font-weight:700}.navlinks a:hover,.navlinks a:focus-visible{color:var(--accent)}.controls{display:flex;gap:8px;align-items:center}.icon-btn,.chip,.action{border:1px solid var(--line);color:var(--text);background:var(--panel);border-radius:12px;padding:10px 14px}.icon-btn:hover,.chip:hover{border-color:var(--accent)}.action{text-decoration:none;display:inline-flex;align-items:center;gap:10px;font-weight:700}.action.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}[data-theme="light"] .action.primary{color:#fff}.action:hover{transform:translateY(-2px)}.action:focus-visible,.chip:focus-visible,.icon-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero{padding:118px 0 100px;position:relative;overflow:hidden}.hero::before{content:"";position:absolute;z-index:-1;right:-200px;top:-260px;width:750px;height:750px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 66%)}.hero-grid{display:grid;grid-template-columns:1.4fr .65fr;align-items:center;gap:72px}.eyebrow{font-size:12px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--accent)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.14;letter-spacing:-.05em}h1{font-size:clamp(52px,7vw,94px);margin:20px 0 25px}h1 span,.section-title span{color:var(--accent)}.lead{font-size:19px;max-width:650px;color:var(--muted);line-height:1.8}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}.portrait{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:26px;padding:24px;box-shadow:0 30px 90px rgba(0,0,0,.1);transform:rotate(2deg)}.portrait img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:17px;background:var(--panel2)}.portrait small{display:block;margin-top:20px;color:var(--muted)}.portrait strong{color:var(--accent);display:block;font-size:14px}.status{display:inline-flex;align-items:center;gap:9px;color:var(--muted);font-size:14px;margin-top:26px}.dot{height:9px;width:9px;background:var(--accent);border-radius:100%;box-shadow:0 0 0 5px var(--glow)}
+section{padding:84px 0}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}.section-title{font-size:clamp(34px,4.6vw,52px);margin:12px 0}.section-caption{color:var(--muted);max-width:590px}.rule{height:1px;background:var(--line)}.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:20px;overflow:hidden;margin:4px 0 20px}.stat{padding:24px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{font-family:"Space Grotesk";font-size:33px;display:block;line-height:1.3}.stat span{color:var(--muted);font-size:13px}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.card{border:1px solid var(--line);background:var(--panel);padding:28px;border-radius:20px}.card h3{font-size:24px;margin-bottom:14px}.card p,.card li{color:var(--muted)}.card p:last-child{margin-bottom:0}.values{display:grid;gap:12px}.value{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 22px}.value strong{display:block;font-size:15px}.value span{color:var(--muted);font-size:13px}
+.timeline{position:relative;margin-top:26px}.timeline:before{content:"";position:absolute;left:15px;top:5px;bottom:10px;background:var(--line);width:2px}.moment{position:relative;padding-left:54px;margin-bottom:22px}.moment:before{content:"";position:absolute;top:25px;left:8px;width:16px;height:16px;background:var(--accent);border:4px solid var(--bg);border-radius:50%}.moment .card{padding:25px 28px}.moment-meta{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:700}.moment h3{margin:9px 0 8px}.moment p{margin:0}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{font-size:12px;border:1px solid var(--line);background:var(--panel2);border-radius:8px;padding:5px 9px;color:var(--muted)}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 28px}.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:700}[data-theme="light"] .chip[aria-pressed="true"]{color:white}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.project{display:flex;flex-direction:column;min-height:260px}.project-top{display:flex;justify-content:space-between;gap:18px}.project-icon{font-size:27px}.project a{margin-top:auto;padding-top:16px;color:var(--accent);text-decoration:none;font-weight:700}.project a:hover{text-decoration:underline}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skill-head{color:var(--accent);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.skill-list{margin:12px 0 0;color:var(--muted)}.edu{display:grid;grid-template-columns:1fr 1fr;gap:16px}.contact-panel{text-align:center;border:1px solid var(--line);border-radius:28px;padding:70px 30px;background:linear-gradient(125deg,var(--panel),var(--panel2))}.contact-panel h2{font-size:clamp(38px,5vw,65px)}.contact-panel p{color:var(--muted);max-width:650px;margin:0 auto 28px}.contact-panel .hero-actions{justify-content:center}.footer{padding:35px 0;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer a{color:var(--muted)}.resume-sheet{display:none}#toast{position:fixed;bottom:24px;right:24px;background:var(--panel2);border:1px solid var(--accent);border-radius:12px;padding:13px 18px;z-index:60;max-width:300px;box-shadow:0 10px 30px #0002}[hidden]{display:none!important}
+@media(max-width:850px){.navlinks{display:none}.hero-grid,.about-grid{grid-template-columns:1fr}.hero{padding:75px 0}.portrait{max-width:340px;transform:none}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.skills{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.container{padding:0 18px}.hero{padding:55px 0}h1{font-size:54px}.lead{font-size:16px}.section-heading{display:block}section{padding:60px 0}.projects,.skills,.edu{grid-template-columns:1fr}.nav-inner{min-height:64px}.brand{font-size:21px}.action{padding:10px 12px}.stat{padding:15px}.stat strong{font-size:25px}.contact-panel{padding:45px 20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+@media print{@page{size:A4;margin:14mm 15mm}body{background:white;color:#161616;font:10pt Arial,sans-serif;line-height:1.35}.nav,main,.footer,#toast{display:none!important}.resume-sheet{display:block!important}.resume-sheet h1{font:700 24pt Arial;margin:0 0 4pt;letter-spacing:0}.resume-sheet h2{font:700 12pt Arial;border-bottom:1px solid #555;margin:16pt 0 7pt;letter-spacing:0}.resume-sheet h3{font:700 10pt Arial;margin:8pt 0 2pt;letter-spacing:0}.resume-sheet p{margin:4pt 0}.resume-sheet .muted{color:#555}.resume-sheet .job{break-inside:avoid;margin-bottom:9pt}.resume-sheet ul{padding-left:15pt;margin:3pt 0}.resume-sheet li{margin-bottom:2pt}.resume-sheet a{color:#111;text-decoration:none}}
+</style>
 </head>
 <body>
-  <main class="resume">
-    <header>
-      <h1>Samuel Lopes</h1>
-      <div class="headline">Software Engineer | SRE &amp; DevOps | Cloud | CI/CD | Kubernetes | AWS</div>
-      <div class="contact" aria-label="Contato">
-        <span>Recife, Pernambuco, Brasil</span>
-        <span>+55 81 98827-5380</span>
-        <a href="mailto:samuelvitorprofissional@gmail.com">samuelvitorprofissional@gmail.com</a>
-        <a href="https://www.linkedin.com/in/samuel-vitor-lopes/">linkedin.com/in/samuel-vitor-lopes</a>
-        <a href="https://github.com/SamuelvLopes">github.com/SamuelvLopes</a>
-      </div>
-    </header>
-
-    <p class="summary">
-      Engenheiro de Software com mais de 7 anos de experiência em desenvolvimento Full Stack e arquitetura de aplicações. Atuei em projetos para empresas como <strong>Itaú, Vivo, B3, Yamaha, Master, Sofisa e BRQ</strong>, trabalhando em ambientes corporativos críticos e de alta escala. Tenho experiência prática com PHP/Laravel, Node.js/TypeScript, APIs e integrações, além de AWS, Docker, Kubernetes, Linux, CI/CD, observabilidade e automação. Minha base como desenvolvedor me permite atuar em infraestrutura e confiabilidade entendendo também o comportamento e as necessidades da aplicação.
-    </p>
-
-    <section aria-labelledby="skills">
-      <h2 id="skills">Habilidades técnicas</h2>
-      <div class="skills-grid">
-        <div class="skill-row"><strong>Backend</strong><span>PHP, Laravel, Node.js, TypeScript, NestJS, HonoJS, Java, Spring Boot, C#, REST APIs</span></div>
-        <div class="skill-row"><strong>Frontend</strong><span>Vue.js, Vue 3, React, React Native, Next.js, Ionic, Angular, JavaScript, HTML, CSS</span></div>
-        <div class="skill-row"><strong>Cloud / DevOps</strong><span>AWS, Azure, GCP, Docker, Kubernetes, Helm, Rancher, Terraform, CI/CD, Linux</span></div>
-        <div class="skill-row"><strong>Dados</strong><span>PostgreSQL, MySQL, MongoDB, Redis, Oracle</span></div>
-        <div class="skill-row"><strong>Qualidade</strong><span>Cypress, Playwright, testes automatizados, code review, SonarQube</span></div>
-        <div class="skill-row"><strong>Observabilidade</strong><span>Zabbix, Elastic, monitoramento, alertas, troubleshooting, incidentes</span></div>
-      </div>
-    </section>
-
-    <section aria-labelledby="experience">
-      <h2 id="experience">Experiência profissional</h2>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Pratics</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor Full Stack | Serviços Continuados &amp; Data Center</div>
-          <div class="date" data-inicio="09/2025" data-fim="atual"></div>
-        </div>
-        <ul>
-          <li>Atuação no desenvolvimento e evolução de soluções web e mobile voltadas a operações de serviços continuados e ambientes de data center, apoiando equipes de campo, gestão de ativos, atendimento técnico, rastreamento de serviços e processos operacionais.</li>
-          <li>Desenvolvimento de aplicação mobile com React, Ionic e TypeScript, incluindo leitura de QR Code para atendimento e consulta de equipamentos.</li>
-          <li>Desenvolvimento de APIs REST com NestJS e HonoJS, integrando aplicativo mobile, sistemas corporativos, rastreamento em tempo real e fluxos de ITSM.</li>
-          <li>Implementação de serviços de geolocalização e compartilhamento de coordenadas em tempo real para equipes de campo.</li>
-          <li>Desenvolvimento de dashboards administrativos com Vue.js, incluindo mapas, relatórios operacionais, gestão de ativos, ordens de serviço, estoque e base de conhecimento.</li>
-          <li>Desenvolvimento de integrações e extensões em PHP para sistemas corporativos de ITSM, com práticas de qualidade, observabilidade e evolução das aplicações.</li>
-        </ul>
-        <div class="stack">React · Ionic · TypeScript · NestJS · HonoJS · Vue.js · PHP · ITSM · REST APIs</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Pratics</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor Full Stack | Comércio Eletrônico Automotivo</div>
-          <div class="date" data-inicio="09/2024" data-fim="09/2025"></div>
-        </div>
-        <ul>
-          <li>Atuação no desenvolvimento e evolução de uma plataforma de comércio eletrônico de veículos, trabalhando em jornadas de negócio relacionadas à compra, venda, agendamento e operação digital.</li>
-          <li>Desenvolvimento e manutenção de aplicações web utilizando Laravel/PHP no backend e Vue 3 no frontend.</li>
-          <li>Construção e refatoração de componentes reutilizáveis e interfaces responsivas, além do desenvolvimento e integração de APIs para suportar regras de negócio.</li>
-          <li>Implementação e evolução de funcionalidades relacionadas aos fluxos de compra, venda e agendamento de veículos.</li>
-          <li>Investigação e correção de bugs, manutenção de funcionalidades existentes e evolução contínua do produto.</li>
-          <li>Análise de requisitos e critérios de aceite, revisão e testes das alterações antes do fluxo de merge, mantendo responsabilidade técnica pela entrega.</li>
-        </ul>
-        <div class="stack">PHP · Laravel · Vue 3 · REST APIs · Git · testes automatizados</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Workfacilit (BRQ)</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Platform Engineer | Cloud &amp; Application Security</div>
-          <div class="date" data-inicio="01/2024" data-fim="07/2026"></div>
-        </div>
-        <ul>
-          <li>Responsável pela arquitetura técnica, confiabilidade e operação de serviços, atuando transversalmente em projetos e equipes de diferentes clientes.</li>
-          <li>Gestão e evolução de ambientes e serviços em cloud, abrangendo planejamento, implantação, monitoramento, sustentação, migração e eficiência de custos.</li>
-          <li>Monitoramento operacional e tratamento de alertas com Zabbix, incluindo investigação, troubleshooting e resolução de incidentes em produção.</li>
-          <li>Definição e auditoria de práticas de engenharia com foco em segurança, escalabilidade, estabilidade, disponibilidade e qualidade.</li>
-          <li>Responsabilidade por decisões de arquitetura e processos técnicos, revisão de código, catalogação de falhas e orientação aos times.</li>
-          <li>Desenvolvimento pontual de software quando necessário para viabilizar mudanças de infraestrutura, plataforma, integrações ou armazenamento.</li>
-        </ul>
-        <div class="stack">AWS · Kubernetes · Docker · Helm · Rancher · CI/CD · Zabbix · Elastic · Redis · Linux · Git</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Workfacilit (BRQ)</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor Full Stack III | Liderança técnica de DevOps &amp; Cloud</div>
-          <div class="date" data-inicio="09/2023" data-fim="12/2023"></div>
-        </div>
-        <ul>
-          <li>Promovido após estruturar e implantar o processo de DevOps da plataforma do Itaú, assumindo a cadeia de testes, automação e deploy.</li>
-          <li>Liderança técnica transversal da frente de DevOps, expandindo processos e práticas para outros projetos e equipes da empresa.</li>
-          <li>Definição e evolução de CI/CD, testes, automação, deploy, cloud e processos de engenharia com foco em confiabilidade e padronização.</li>
-          <li>Atuação direta em incidentes de produção, troubleshooting, implantação de serviços e decisões de arquitetura de sistemas.</li>
-        </ul>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Workfacilit (BRQ)</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor Full Stack</div>
-          <div class="date" data-inicio="10/2022" data-fim="09/2023"></div>
-        </div>
-        <ul>
-          <li>Desenvolvimento e evolução de plataforma utilizada por equipes do Itaú para comunicação com clientes via WhatsApp.</li>
-          <li>Atuação em ambiente de alta escala, com processamento de milhões de mensagens diariamente e integração com diversos serviços internos do banco.</li>
-          <li>Desenvolvimento Full Stack com PHP, Laravel, Java, Spring Boot, JavaScript, TypeScript, Angular, Node.js, HTML, CSS e jQuery, incluindo funcionalidades, correções, integrações e sustentação.</li>
-          <li>Desenvolvimento e manutenção de aplicações mobile multiplataforma com React Native, integradas às APIs e aos serviços da plataforma.</li>
-          <li>Atuação sob requisitos rigorosos de auditoria, segurança, privacidade e conformidade com a LGPD.</li>
-        </ul>
-        <div class="stack">PHP · Laravel · Java · Spring Boot · JavaScript · TypeScript · Angular · React Native · Node.js · HTML · CSS · jQuery · PostgreSQL · Redis · REST APIs</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Titan Software</div>
-          <div class="place">São Paulo, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor Full Stack Junior</div>
-          <div class="date" data-inicio="03/2022" data-fim="10/2022"></div>
-        </div>
-        <ul>
-          <li>Manutenção e evolução de sistema ERP/retaguarda em PHP e sistema de ponto de venda (PDV) em Java.</li>
-          <li>Atendimento de tickets, correção de bugs, ajustes e evoluções em módulos de estoque, inventário, vendas e operação de PDV.</li>
-          <li>Investigação de problemas reportados em produção e implementação das correções necessárias nos sistemas afetados.</li>
-        </ul>
-        <div class="stack">PHP · Java · Laravel · React · MongoDB</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Meta 55 Distribuidora</div>
-          <div class="place">Jaboatão dos Guararapes, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Analista de Sistemas</div>
-          <div class="date" data-inicio="02/2020" data-fim="03/2022"></div>
-        </div>
-        <ul>
-          <li>Desenvolvimento de APIs e integrações em PHP entre aplicações próprias e o ERP WinThor (TOTVS), conectando fluxos comerciais e operacionais.</li>
-          <li>Desenvolvimento e evolução da área do cliente, soluções de autoatendimento via WhatsApp, aplicativo Ganha Ganha e e-commerces.</li>
-          <li>Suporte a sistemas e usuários, investigação de problemas e interface técnica com fornecedores e empresas desenvolvedoras.</li>
-        </ul>
-        <div class="stack">PHP · CodeIgniter · React · Oracle · WinThor/TOTVS · REST APIs</div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="company">Instituto Internacional Despertando Vocações (IIDV)</div>
-          <div class="place">Remoto, Brasil</div>
-        </div>
-        <div class="role-row">
-          <div class="role">Desenvolvedor de Software Junior</div>
-          <div class="date" data-inicio="02/2019" data-fim="12/2020"></div>
-        </div>
-        <ul>
-          <li>Desenvolvimento e manutenção de sites, páginas institucionais, eventos e soluções de e-commerce.</li>
-          <li>Implementação e customização de soluções com HTML, CSS, JavaScript, PHP, WordPress e Moodle.</li>
-          <li>Apoio à administração do Google Workspace/G Suite e demandas digitais da instituição.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section aria-labelledby="education">
-      <h2 id="education">Formação</h2>
-      <div class="education-line">
-        <div>
-          <strong>Instituto Federal de Pernambuco — IFPE</strong>
-          <span class="subtle">Tecnologia em Análise e Desenvolvimento de Sistemas · Recife, Brasil</span>
-        </div>
-        <div class="date">01/2019 — 12/2024</div>
-      </div>
-      <div class="education-line">
-        <div>
-          <strong>Escola Técnica Estadual ACGC</strong>
-          <span class="subtle">Técnico em Administração · Recife, Brasil</span>
-        </div>
-        <div class="date">06/2021 — 06/2023</div>
-      </div>
-    </section>
-
-    <section aria-labelledby="certificates">
-      <h2 id="certificates">Certificações e cursos</h2>
-      <div class="certificate-line"><div><strong>Novo Pentest Profissional — DESEC</strong><span class="subtle">Formação em segurança ofensiva</span></div><div class="date">Em andamento</div></div>
-      <div class="certificate-line"><div><strong>Penetration Testing — CESAR School</strong></div><div class="date">09/2024</div></div>
-      <div class="certificate-line"><div><strong>Gerenciamento de Processos com BPMN — Workfacilit</strong></div><div class="date">06/2024</div></div>
-      <div class="certificate-line"><div><strong>Especialização em AWS — Cloud Treinamentos</strong></div><div class="date">12/2023</div></div>
-    </section>
-  </main>
-
-  <script>
-    (function () {
-      function parseMesAno(str) {
-        var m = str.trim().match(/^(\d{2})\/(\d{4})$/);
-        if (!m) return null;
-        return new Date(parseInt(m[2], 10), parseInt(m[1], 10) - 1, 1);
-      }
-
-      function formatDuracao(inicio, fim) {
-        var meses = (fim.getFullYear() - inicio.getFullYear()) * 12 + (fim.getMonth() - inicio.getMonth());
-        if (meses < 1) meses = 1;
-        var anos = Math.floor(meses / 12);
-        var restoMeses = meses % 12;
-        var partes = [];
-        if (anos > 0) partes.push(anos + (anos === 1 ? ' ano' : ' anos'));
-        if (restoMeses > 0 || anos === 0) partes.push(restoMeses + (restoMeses === 1 ? ' mês' : ' meses'));
-        return partes.join(' e ');
-      }
-
-      document.querySelectorAll('.entry .date').forEach(function (el) {
-        var inicio = parseMesAno(el.dataset.inicio || '');
-        if (!inicio) return;
-        var fimAttr = (el.dataset.fim || '').trim();
-        var fim = fimAttr.toLowerCase() === 'atual' ? new Date() : parseMesAno(fimAttr);
-        if (!fim) return;
-        el.textContent = formatDuracao(inicio, fim);
-      });
-    })();
-  </script>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="#inicio" aria-label="Samuel Lopes, início">sl<span>.</span></a><nav class="navlinks" aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#trajetoria">Trajetória</a><a href="#projetos">Projetos</a><a href="#tecnologias">Tecnologias</a><a href="#formacao">Formação</a><a href="#contato">Contato</a></nav><div class="controls"><button class="icon-btn" id="theme" aria-label="Alternar tema" title="Alternar tema">◐</button><button class="action primary" id="pdfTop" type="button">↓ Currículo PDF</button></div></div></header>
+<main>
+<div class="hero" id="inicio"><div class="container hero-grid"><div><div class="eyebrow">Recife, Brasil · Engenharia de software</div><h1>Olá, eu sou<br><span>Samuel Lopes.</span></h1><p class="lead">Gosto de entender problemas complexos, construir soluções úteis e fazer sistemas funcionarem bem na vida real. Minha história atravessa desenvolvimento, infraestrutura, segurança e produtos digitais.</p><div class="hero-actions"><a class="action primary" href="#trajetoria">Conheça minha história ↘</a><a class="action" href="#projetos">Explorar projetos ↗</a></div><div class="status"><span class="dot"></span> Do código à operação: produtos, engenharia e aprendizado contínuo</div></div><aside class="portrait"><img src="i.jpeg" alt="Imagem do perfil de Samuel Lopes" onerror="this.style.display='none'"><small>O que me move</small><strong>Curiosidade. Responsabilidade. Evolução.</strong></aside></div></div>
+<div class="container"><div class="stats"><div class="stat"><strong>2019</strong><span>Início da trajetória em software</span></div><div class="stat"><strong>Full Stack</strong><span>Backend, frontend e integrações</span></div><div class="stat"><strong>Cloud</strong><span>Plataforma, automação e confiabilidade</span></div><div class="stat"><strong>Pratics</strong><span>Produtos e empreendedorismo</span></div></div></div>
+<section id="sobre"><div class="container"><div class="section-heading"><div><div class="eyebrow">01 / Quem sou</div><h2 class="section-title">Mais do que <span>código.</span></h2></div><p class="section-caption">Construir software é parte do trabalho. Entender o contexto, fazer escolhas conscientes e sustentar o resultado é o que transforma tecnologia em valor.</p></div><div class="about-grid"><article class="card"><h3>Minha história em poucas palavras</h3><p>Sou de Recife, Pernambuco. Comecei a trabalhar com desenvolvimento de software em 2019, criando aplicações web e resolvendo problemas do dia a dia de organizações.</p><p>Ao longo do caminho, passei por sistemas de gestão, integrações empresariais, plataformas digitais e ambientes de alta exigência. Essa experiência me aproximou de arquitetura, DevOps, cloud, observabilidade e segurança.</p><p>Hoje concilio engenharia de software com o desafio de criar produtos próprios por meio da Pratics. Gosto tanto de construir quanto de descobrir se o que construí realmente resolveu um problema.</p></article><div class="values"><div class="value"><strong>01 · Engenharia com responsabilidade</strong><span>Entender, implementar, revisar, testar e conseguir explicar.</span></div><div class="value"><strong>02 · Visão de ponta a ponta</strong><span>Do requisito e da interface até o deploy, operação e monitoramento.</span></div><div class="value"><strong>03 · Mentalidade de produto</strong><span>Usuários e resultados reais importam mais do que quantidade de funcionalidades.</span></div><div class="value"><strong>04 · Aprendizado permanente</strong><span>Explorar novas abordagens sem perder o senso crítico técnico.</span></div></div></div></div></section>
+<div class="container"><div class="rule"></div></div>
+<section id="trajetoria"><div class="container"><div class="section-heading"><div><div class="eyebrow">02 / Linha do tempo</div><h2 class="section-title">Uma trajetória em <span>construção.</span></h2></div><p class="section-caption">Explore os capítulos da minha carreira. As experiências se conectam: software, sistemas, pessoas, infraestrutura e negócios.</p></div><div class="timeline" id="timeline"></div></div></section>
+<div class="container"><div class="rule"></div></div>
+<section id="projetos"><div class="container"><div class="section-heading"><div><div class="eyebrow">03 / Trabalho que ganha forma</div><h2 class="section-title">Projetos &amp; <span>produtos.</span></h2></div><p class="section-caption">Alguns produtos estão em operação; outros são experimentos em validação. O estágio de cada iniciativa faz parte da história.</p></div><div class="filters" role="group" aria-label="Filtrar projetos"><button class="chip" data-filter="todos" aria-pressed="true">Todos</button><button class="chip" data-filter="produto" aria-pressed="false">Produtos</button><button class="chip" data-filter="engenharia" aria-pressed="false">Engenharia</button></div><div class="projects" id="projects"></div></div></section>
+<section id="tecnologias"><div class="container"><div class="section-heading"><div><div class="eyebrow">04 / Ferramentas</div><h2 class="section-title">Minha caixa de <span>ferramentas.</span></h2></div><p class="section-caption">Tecnologias com as quais já trabalhei ou estudei. A escolha depende do problema, não da moda.</p></div><div class="skills" id="skills"></div></div></section>
+<section id="formacao"><div class="container"><div class="section-heading"><div><div class="eyebrow">05 / Aprendizado</div><h2 class="section-title">Formação &amp; <span>evolução.</span></h2></div></div><div class="edu"><article class="card"><div class="eyebrow">Formação acadêmica</div><h3>IFPE · Análise e Desenvolvimento de Sistemas</h3><p>Formação em tecnologia com base em análise, desenvolvimento e engenharia de sistemas. Trabalho de conclusão de curso relacionado ao PPSI Digital.</p></article><article class="card"><div class="eyebrow">Formação complementar</div><h3>Cloud, processos e segurança</h3><p>Estudos e cursos em AWS, teste de intrusão, BPMN, infraestrutura, observabilidade, arquitetura e segurança de aplicações.</p></article></div><div class="hero-actions"><button class="action primary" type="button" id="pdfBottom">↓ Exportar currículo em PDF</button><button class="action" type="button" id="txtExport">↓ Currículo em texto</button><a class="action" href="curriculo-legado.html" target="_blank" rel="noopener noreferrer">Versão anterior ↗</a></div><p class="section-caption" style="margin-top:15px;font-size:13px">O PDF é gerado pela opção de impressão do navegador: selecione “Salvar como PDF”.</p></div></section>
+<section id="contato"><div class="container"><div class="contact-panel"><div class="eyebrow">06 / Vamos conversar</div><h2>Boas ideias começam<br>com uma <span style="color:var(--accent)">conversa.</span></h2><p>Tem um projeto interessante, uma oportunidade de engenharia ou quer trocar experiências sobre tecnologia e produtos?</p><div class="hero-actions"><a class="action primary" href="mailto:samuelvitorprofissional@gmail.com">Enviar e-mail ↗</a><a class="action" href="https://www.linkedin.com/in/samuel-vitor-lopes/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="action" href="https://github.com/SamuelvLopes" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Samuel Lopes · Feito com propósito em Recife.</span><span><a href="#inicio">Voltar ao topo ↑</a> · <a href="mailto:samuelvitorprofissional@gmail.com">Contato</a></span></div></footer>
+<div class="resume-sheet" id="resume" aria-label="Currículo para impressão"></div><div id="toast" role="status" aria-live="polite" hidden></div>
+<script>
+const career=[
+{date:"2026 — presente",company:"Green4T",role:"Especialista em Serviços de Tecnologia",description:"Atuação com serviços de tecnologia, aplicações corporativas e sustentação, conectando desenvolvimento às necessidades operacionais.",tags:["Aplicações","ITSM","Sustentação"]},
+{date:"2024 — presente",company:"Cars2you · Prestação de serviços",role:"Engenharia Full Stack",description:"Evolução de plataforma digital do setor automotivo, trabalhando com regras de negócio, APIs, interfaces, qualidade e testes ponta a ponta.",tags:["Laravel","Vue 3","Playwright","APIs"]},
+{date:"2024 — presente",company:"Pratics",role:"Fundador · Produtos digitais",description:"Desenvolvimento de soluções próprias, do problema do cliente à construção, publicação, operação e validação comercial.",tags:["Empreendedorismo","Produto","Arquitetura"]},
+{date:"2022 — 2026",company:"Workfacilit / BRQ",role:"Full Stack → Plataforma, DevOps e Cloud",description:"Desenvolvimento de sistemas e evolução para responsabilidades de CI/CD, ambientes cloud, containers, observabilidade, segurança, confiabilidade e liderança técnica.",tags:["AWS","Kubernetes","Docker","CI/CD","Zabbix"]},
+{date:"2022",company:"Titan Software",role:"Desenvolvedor Full Stack",description:"Desenvolvimento e manutenção de soluções de ERP e ponto de venda, com foco em integrações e problemas de operação.",tags:["PHP","Java","ERP"]},
+{date:"2020 — 2022",company:"Meta 55 Distribuidora",role:"Analista de Sistemas",description:"Integrações entre sistemas empresariais, APIs, soluções comerciais e automação de atendimento.",tags:["PHP","Oracle","TOTVS","Integrações"]},
+{date:"2019 — 2020",company:"IIDV",role:"Desenvolvimento Web",description:"Primeiros projetos profissionais: sites, aplicações e plataformas para eventos, educação e comércio digital.",tags:["PHP","JavaScript","WordPress"]}
+];
+const projects=[
+{name:"AssetVuln",icon:"◈",type:"produto",status:"Publicado · validação comercial",description:"Plataforma de segurança, observabilidade e gestão de ativos digitais com foco em identificação e mitigação de riscos.",url:"https://assetvuln.com.br",label:"Conhecer AssetVuln"},
+{name:"Hugo Ótica",icon:"◉",type:"produto",status:"Cliente pagante",description:"Software vertical criado a partir de uma necessidade real de uma ótica, com uso comercial e assinatura recorrente.",url:null,label:null},
+{name:"WorkControl",icon:"▦",type:"produto",status:"Em validação",description:"Iniciativa de software para apoiar processos empresariais e operações, em colaboração com parceiros.",url:null,label:null},
+{name:"pratic.es",icon:"⌁",type:"produto",status:"MVP · validação",description:"Projeto para orientar jornadas de pessoas que desejam morar, estudar ou trabalhar na Espanha.",url:"https://pratic.es",label:"Conhecer projeto"},
+{name:"Automação e qualidade",icon:"⌘",type:"engenharia",status:"Engenharia aplicada",description:"Estruturação de testes ponta a ponta, processos de entrega, revisão, automação e melhoria da confiabilidade.",url:null,label:null},
+{name:"Plataforma e observabilidade",icon:"◇",type:"engenharia",status:"Infraestrutura e operação",description:"Experiência com conteinerização, orquestração, monitoramento, incidentes e evolução de plataformas em cloud.",url:null,label:null}
+];
+const skills=[
+{name:"Backend & APIs",items:["PHP","Laravel","Node.js","TypeScript","NestJS","Java","REST"]},
+{name:"Frontend & Mobile",items:["Vue.js","React","Next.js","React Native","Ionic","HTML/CSS"]},
+{name:"Cloud & Plataforma",items:["AWS","Azure","Docker","Kubernetes","Helm","Linux","CI/CD"]},
+{name:"Dados & Mensageria",items:["PostgreSQL","MySQL","MongoDB","Redis","Oracle"]},
+{name:"Qualidade & Segurança",items:["Playwright","Cypress","Code review","AppSec","DevSecOps"]},
+{name:"Observabilidade",items:["Zabbix","Grafana","Loki","Elastic","Troubleshooting"]}
+];
+function elt(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
+const timeline=document.getElementById("timeline");career.forEach(item=>{const wrap=elt("article","moment");const card=elt("div","card");card.append(elt("div","moment-meta",item.date),elt("h3","",item.company+" · "+item.role),elt("p","",item.description));const tags=elt("div","tags");item.tags.forEach(t=>tags.append(elt("span","tag",t)));card.append(tags);wrap.append(card);timeline.append(wrap)});
+function renderProjects(filter){const root=document.getElementById("projects");root.replaceChildren();projects.filter(p=>filter==="todos"||p.type===filter).forEach(p=>{const card=elt("article","card project");const top=elt("div","project-top");top.append(elt("div","project-icon",p.icon),elt("span","tag",p.status));card.append(top,elt("h3","",p.name),elt("p","",p.description));if(p.url){const a=elt("a","",p.label+" ↗");a.href=p.url;a.target="_blank";a.rel="noopener noreferrer";card.append(a)}root.append(card)})}
+renderProjects("todos");document.querySelectorAll("[data-filter]").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll("[data-filter]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));renderProjects(button.dataset.filter)}));
+skills.forEach(group=>{const card=elt("article","card");card.append(elt("div","skill-head",group.name));const tags=elt("div","tags");group.items.forEach(x=>tags.append(elt("span","tag",x)));card.append(tags);document.getElementById("skills").append(card)});
+const cv=document.getElementById("resume");
+const cvTitle=elt("h1","", "Samuel Lopes");cv.append(cvTitle,elt("p","muted","Engenheiro de Software · Full Stack · Cloud · Plataforma · DevSecOps"),elt("p","", "Recife, PE · samuelvitorprofissional@gmail.com · github.com/SamuelvLopes · linkedin.com/in/samuel-vitor-lopes/"));
+cv.append(elt("h2","", "Resumo profissional"),elt("p","", "Profissional de tecnologia com trajetória desde 2019 em desenvolvimento Full Stack, integrações corporativas, engenharia de plataforma, DevOps, cloud, segurança e produtos digitais. Experiência com PHP/Laravel, Node.js/TypeScript, Vue, AWS, Docker, Kubernetes, automação e observabilidade."));
+cv.append(elt("h2","","Experiência profissional"));
+career.forEach(x=>{const item=elt("article","job");item.append(elt("h3","",x.company+" — "+x.role),elt("div","muted",x.date),elt("p","",x.description));cv.append(item)});
+cv.append(elt("h2","","Competências técnicas"));skills.forEach(x=>cv.append(elt("p","",x.name+": "+x.items.join(", "))));
+cv.append(elt("h2","","Projetos selecionados"));projects.filter(x=>x.type==="produto").forEach(x=>cv.append(elt("p","",x.name+" — "+x.description)));
+cv.append(elt("h2","","Formação"));cv.append(elt("p","","Instituto Federal de Pernambuco (IFPE) — Tecnologia em Análise e Desenvolvimento de Sistemas."),elt("p","","Formação complementar: AWS, segurança de aplicações, teste de intrusão e BPMN."));
+function exportPdf(){window.print()}
+document.getElementById("pdfTop").addEventListener("click",exportPdf);document.getElementById("pdfBottom").addEventListener("click",exportPdf);
+document.getElementById("txtExport").addEventListener("click",()=>{const text=["SAMUEL LOPES","Engenharia de Software | Full Stack | Cloud | DevSecOps","Recife, PE | samuelvitorprofissional@gmail.com | github.com/SamuelvLopes","","RESUMO","Profissional de tecnologia desde 2019, com experiência em desenvolvimento, plataforma, cloud, CI/CD, observabilidade e segurança.","","EXPERIÊNCIA",...career.flatMap(x=>[x.date+" | "+x.company+" | "+x.role,x.description,""]),"TECNOLOGIAS",...skills.map(x=>x.name+": "+x.items.join(", ")),"","FORMAÇÃO","IFPE — Tecnologia em Análise e Desenvolvimento de Sistemas","", "PROJETOS",...projects.filter(x=>x.type==="produto").map(x=>x.name+": "+x.description)].join("\n");const url=URL.createObjectURL(new Blob([text],{type:"text/plain;charset=utf-8"}));const a=document.createElement("a");a.href=url;a.download="Samuel-Lopes-Curriculo.txt";document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+const themeBtn=document.getElementById("theme");function setTheme(mode){document.documentElement.dataset.theme=mode;themeBtn.setAttribute("aria-label",mode==="light"?"Ativar tema escuro":"Ativar tema claro");try{localStorage.setItem("samuel-theme",mode)}catch(e){}}
+let initial="dark";try{initial=localStorage.getItem("samuel-theme")||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark")}catch(e){}setTheme(initial);themeBtn.addEventListener("click",()=>setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark"));
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
 </body>
 </html>
