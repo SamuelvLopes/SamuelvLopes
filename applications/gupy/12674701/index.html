@@ -251,9 +251,38 @@
         white-space: normal;
       }
     }
+    .resume-actions {
+      display: flex;
+      justify-content: flex-end;
+      width: min(210mm, 100%);
+      margin: 18px auto 0;
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+
+    .save-pdf {
+      padding: 10px 16px;
+      border: 1px solid #202124;
+      border-radius: 6px;
+      background: #202124;
+      color: #fff;
+      font: 600 14px Arial, Helvetica, sans-serif;
+      cursor: pointer;
+    }
+
+    .save-pdf:hover { background: #3c4043; }
+    .save-pdf:focus-visible { outline: 3px solid #1a73e8; outline-offset: 3px; }
+
+    @media print {
+      .resume-actions { display: none !important; }
+    }
+
   </style>
 </head>
 <body>
+  <div class="resume-actions">
+    <button class="save-pdf" type="button" onclick="window.print()">Salvar como PDF</button>
+  </div>
   <main class="resume">
     <header>
       <h1>Samuel Lopes</h1>
